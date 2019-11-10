@@ -11,11 +11,11 @@ entity RegIDEX is
 			input_instruction_EX: in std_logic_vector(0 to 3);
 			
 			output_instruction_WB:	out std_logic_vector(0 to 1) := "00";
-			output_instruction_ME:	out std_logic_vector(0 to 2) := "000";
+			output_instruction_M:	out std_logic_vector(0 to 2) := "000";
 			output_instruction_EX:	out std_logic_vector(0 to 3) := "0000";
 			
 			input_ProgramCounter: in std_logic_vector(0 to 31);
-			output_ProgramCouter: out std_logic_vector(0 to 31):= "00000000000000000000000000000000";
+			output_ProgramCounter: out std_logic_vector(0 to 31):= "00000000000000000000000000000000";
 			
 			input_read1:	in		std_logic_vector(0 to 31);
 			output_read1:	out	std_logic_vector(0 to 31) := "00000000000000000000000000000000";
@@ -39,9 +39,9 @@ begin
 	begin
 		if (clock'EVENT and clock = '1') then
 			output_instruction_WB		<= input_instruction_WB;
-			output_instruction_ME		<= input_instruction_ME;
+			output_instruction_M		<= input_instruction_M;
 			output_instruction_EX		<= input_instruction_EX;
-			output_ProgramCouter		   <= input_ProgramCounter;
+			output_ProgramCounter		<= input_ProgramCounter;
 			output_read1	<= input_read1;
 			output_read2	<= input_read2;
 			output_imed		<= input_imed;
