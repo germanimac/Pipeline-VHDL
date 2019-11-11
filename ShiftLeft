@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity shift_left is
+	port	(a: in  std_logic_vector(0 to 31);
+			 b:	out std_logic_vector(0 to 31));
+end shift_left;
+
+architecture seila of shift_left is
+begin
+	b <= a(2 to 31) & "00";
+end;
