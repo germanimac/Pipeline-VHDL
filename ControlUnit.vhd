@@ -5,7 +5,6 @@ use ieee.std_logic_unsigned.all;
 entity ControlUnit is
 	port (
 		Instruction: 	in std_logic_vector(5 downto 0);
-		Clock:			in	std_logic;	
 		Regwrite,RegDst,AluSrc,Memwrite,Memread,Branch,Memtoreg:	out STD_LOGIC;
 		ALUOP:	out std_logic_vector(2 downto 0)
 	);
@@ -13,9 +12,9 @@ end ControlUnit;
 
 Architecture Behavior of ControlUnit is
 begin
-	process(Clock)
+	process(Instruction)
 	begin
-	if(Clock'EVENT AND CLOCK = '1')	THEN
+	
 		case Instruction is
 			when "000000" => --tipo R(menos Jr)--
 									Regwrite <= '1';
@@ -102,6 +101,5 @@ begin
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
 		end case;
-	end if;
 	end process;
 end Behavior;
