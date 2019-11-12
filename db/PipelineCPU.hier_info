@@ -33,7 +33,121 @@ Barramento[30] => ~NO_FANOUT~
 Barramento[31] => ~NO_FANOUT~
 
 
-|PipelineCPU|regWithTriState:reg
+|PipelineCPU|bancoRegistradores:reg
+readRegister1[0] => ~NO_FANOUT~
+readRegister1[1] => ~NO_FANOUT~
+readRegister1[2] => ~NO_FANOUT~
+readRegister1[3] => ~NO_FANOUT~
+readRegister1[4] => ~NO_FANOUT~
+readRegister2[0] => ~NO_FANOUT~
+readRegister2[1] => ~NO_FANOUT~
+readRegister2[2] => ~NO_FANOUT~
+readRegister2[3] => ~NO_FANOUT~
+readRegister2[4] => ~NO_FANOUT~
+writeRegister[0] => ~NO_FANOUT~
+writeRegister[1] => ~NO_FANOUT~
+writeRegister[2] => ~NO_FANOUT~
+writeRegister[3] => ~NO_FANOUT~
+writeRegister[4] => ~NO_FANOUT~
+writeData[0] => regWithTriState:reg0.Data[0]
+writeData[1] => regWithTriState:reg0.Data[1]
+writeData[2] => regWithTriState:reg0.Data[2]
+writeData[3] => regWithTriState:reg0.Data[3]
+writeData[4] => regWithTriState:reg0.Data[4]
+writeData[5] => regWithTriState:reg0.Data[5]
+writeData[6] => regWithTriState:reg0.Data[6]
+writeData[7] => regWithTriState:reg0.Data[7]
+writeData[8] => regWithTriState:reg0.Data[8]
+writeData[9] => regWithTriState:reg0.Data[9]
+writeData[10] => regWithTriState:reg0.Data[10]
+writeData[11] => regWithTriState:reg0.Data[11]
+writeData[12] => regWithTriState:reg0.Data[12]
+writeData[13] => regWithTriState:reg0.Data[13]
+writeData[14] => regWithTriState:reg0.Data[14]
+writeData[15] => regWithTriState:reg0.Data[15]
+writeData[16] => regWithTriState:reg0.Data[16]
+writeData[17] => regWithTriState:reg0.Data[17]
+writeData[18] => regWithTriState:reg0.Data[18]
+writeData[19] => regWithTriState:reg0.Data[19]
+writeData[20] => regWithTriState:reg0.Data[20]
+writeData[21] => regWithTriState:reg0.Data[21]
+writeData[22] => regWithTriState:reg0.Data[22]
+writeData[23] => regWithTriState:reg0.Data[23]
+writeData[24] => regWithTriState:reg0.Data[24]
+writeData[25] => regWithTriState:reg0.Data[25]
+writeData[26] => regWithTriState:reg0.Data[26]
+writeData[27] => regWithTriState:reg0.Data[27]
+writeData[28] => regWithTriState:reg0.Data[28]
+writeData[29] => regWithTriState:reg0.Data[29]
+writeData[30] => regWithTriState:reg0.Data[30]
+writeData[31] => regWithTriState:reg0.Data[31]
+readData1[0] <= regWithTriState:reg0.DataOut1[0]
+readData1[1] <= regWithTriState:reg0.DataOut1[1]
+readData1[2] <= regWithTriState:reg0.DataOut1[2]
+readData1[3] <= regWithTriState:reg0.DataOut1[3]
+readData1[4] <= regWithTriState:reg0.DataOut1[4]
+readData1[5] <= regWithTriState:reg0.DataOut1[5]
+readData1[6] <= regWithTriState:reg0.DataOut1[6]
+readData1[7] <= regWithTriState:reg0.DataOut1[7]
+readData1[8] <= regWithTriState:reg0.DataOut1[8]
+readData1[9] <= regWithTriState:reg0.DataOut1[9]
+readData1[10] <= regWithTriState:reg0.DataOut1[10]
+readData1[11] <= regWithTriState:reg0.DataOut1[11]
+readData1[12] <= regWithTriState:reg0.DataOut1[12]
+readData1[13] <= regWithTriState:reg0.DataOut1[13]
+readData1[14] <= regWithTriState:reg0.DataOut1[14]
+readData1[15] <= regWithTriState:reg0.DataOut1[15]
+readData1[16] <= regWithTriState:reg0.DataOut1[16]
+readData1[17] <= regWithTriState:reg0.DataOut1[17]
+readData1[18] <= regWithTriState:reg0.DataOut1[18]
+readData1[19] <= regWithTriState:reg0.DataOut1[19]
+readData1[20] <= regWithTriState:reg0.DataOut1[20]
+readData1[21] <= regWithTriState:reg0.DataOut1[21]
+readData1[22] <= regWithTriState:reg0.DataOut1[22]
+readData1[23] <= regWithTriState:reg0.DataOut1[23]
+readData1[24] <= regWithTriState:reg0.DataOut1[24]
+readData1[25] <= regWithTriState:reg0.DataOut1[25]
+readData1[26] <= regWithTriState:reg0.DataOut1[26]
+readData1[27] <= regWithTriState:reg0.DataOut1[27]
+readData1[28] <= regWithTriState:reg0.DataOut1[28]
+readData1[29] <= regWithTriState:reg0.DataOut1[29]
+readData1[30] <= regWithTriState:reg0.DataOut1[30]
+readData1[31] <= regWithTriState:reg0.DataOut1[31]
+readData2[0] <= regWithTriState:reg0.DataOut2[0]
+readData2[1] <= regWithTriState:reg0.DataOut2[1]
+readData2[2] <= regWithTriState:reg0.DataOut2[2]
+readData2[3] <= regWithTriState:reg0.DataOut2[3]
+readData2[4] <= regWithTriState:reg0.DataOut2[4]
+readData2[5] <= regWithTriState:reg0.DataOut2[5]
+readData2[6] <= regWithTriState:reg0.DataOut2[6]
+readData2[7] <= regWithTriState:reg0.DataOut2[7]
+readData2[8] <= regWithTriState:reg0.DataOut2[8]
+readData2[9] <= regWithTriState:reg0.DataOut2[9]
+readData2[10] <= regWithTriState:reg0.DataOut2[10]
+readData2[11] <= regWithTriState:reg0.DataOut2[11]
+readData2[12] <= regWithTriState:reg0.DataOut2[12]
+readData2[13] <= regWithTriState:reg0.DataOut2[13]
+readData2[14] <= regWithTriState:reg0.DataOut2[14]
+readData2[15] <= regWithTriState:reg0.DataOut2[15]
+readData2[16] <= regWithTriState:reg0.DataOut2[16]
+readData2[17] <= regWithTriState:reg0.DataOut2[17]
+readData2[18] <= regWithTriState:reg0.DataOut2[18]
+readData2[19] <= regWithTriState:reg0.DataOut2[19]
+readData2[20] <= regWithTriState:reg0.DataOut2[20]
+readData2[21] <= regWithTriState:reg0.DataOut2[21]
+readData2[22] <= regWithTriState:reg0.DataOut2[22]
+readData2[23] <= regWithTriState:reg0.DataOut2[23]
+readData2[24] <= regWithTriState:reg0.DataOut2[24]
+readData2[25] <= regWithTriState:reg0.DataOut2[25]
+readData2[26] <= regWithTriState:reg0.DataOut2[26]
+readData2[27] <= regWithTriState:reg0.DataOut2[27]
+readData2[28] <= regWithTriState:reg0.DataOut2[28]
+readData2[29] <= regWithTriState:reg0.DataOut2[29]
+readData2[30] <= regWithTriState:reg0.DataOut2[30]
+readData2[31] <= regWithTriState:reg0.DataOut2[31]
+
+
+|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
 Data[2] => registrador:reg.R[2]
@@ -135,7 +249,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|regWithTriState:reg|registrador:reg
+|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0|registrador:reg
 R[0] => Q[0]~reg0.DATAIN
 R[1] => Q[1]~reg0.DATAIN
 R[2] => Q[2]~reg0.DATAIN
@@ -234,7 +348,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|regWithTriState:reg|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -333,7 +447,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|regWithTriState:reg|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN

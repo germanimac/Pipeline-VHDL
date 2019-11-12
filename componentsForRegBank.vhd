@@ -29,8 +29,8 @@ GENERIC (N: INTEGER:= 32);
 		DataOut1				:OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0 ); -- data out para saida do 1
 		DataOut2				:OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0 ); -- data out para saida do 2
 		Rin					:IN STD_LOGIC;
-		Rout1					:IN	STD_LOGIC; --rout para sair read data 1
-		Rout2					:IN 	STD_LOGIC -- rout para sair read data 2 
+		Rout1					:IN	STD_LOGIC := '1'; --rout para sair read data 1
+	   Rout2					:IN 	STD_LOGIC := '1'-- rout para sair read data 2 
 		);
 
 END COMPONENT;
