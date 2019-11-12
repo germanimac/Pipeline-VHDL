@@ -8,6 +8,7 @@ COMPONENT bancoRegistradores IS
 	GENERIC(Code : Integer :=5;
 				N : Integer:=32);
 	Port(
+		Clock :IN STD_LOGIC;
 		readRegister1 					:IN STD_LOGIC_VECTOR(Code-1 DOWNTO 0);
 		readRegister2 					:IN STD_LOGIC_VECTOR(Code-1 DOWNTO 0);
 		writeRegister					:IN STD_LOGIC_VECTOR(Code-1 DOWNTO 0 ); -- data out para saida do 2

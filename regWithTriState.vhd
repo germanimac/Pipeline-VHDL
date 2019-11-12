@@ -6,6 +6,7 @@ USE work.componentsForRegBank.all ;
 ENTITY regWithTriState IS 
 	GENERIC(N : Integer :=32);
 	Port(
+		Clock :IN STD_LOGIC;
 		Data 					:IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
 		DataOut1				:OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0 ); -- data out para saida do 1
 		DataOut2				:OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0 ); -- data out para saida do 2
@@ -26,7 +27,7 @@ ARCHITECTURE Behavior OF regWithTriState  IS
 BEGIN
 
 
-	reg: registrador PORT MAP(Data, Rin, Dout);
+	reg: registrador PORT MAP(Clock, Data, Rin, Dout);
 	tri1 : triStateBuffer PORT MAP (Dout, Rout1, DataOut1); -- saida do primeiro
 	tri2 : triStateBuffer PORT MAP (Dout, Rout2, DataOut2); -- saida do segundo
 	

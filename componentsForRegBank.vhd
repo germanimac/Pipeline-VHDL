@@ -6,7 +6,9 @@ PACKAGE componentsForRegBank is
 
 COMPONENT registrador IS
 	GENERIC(N : Integer :=32);
-	PORT( R					:IN	STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+	PORT(
+			Clock :IN STD_LOGIC;
+			R					:IN	STD_LOGIC_VECTOR(N-1 DOWNTO 0);
 			Rin		:IN	STD_LOGIC;
 			Q					:OUT 	STD_LOGIC_VECTOR(N-1 DOWNTO 0));
 END component;
@@ -25,6 +27,7 @@ END COMPONENT;
 COMPONENT regWithTriState IS	
 GENERIC (N: INTEGER:= 32);
 	Port(
+		Clock :IN STD_LOGIC;
 		Data 					:IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
 		DataOut1				:OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0 ); -- data out para saida do 1
 		DataOut2				:OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0 ); -- data out para saida do 2
