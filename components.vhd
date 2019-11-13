@@ -10,6 +10,7 @@ COMPONENT bancoRegistradores IS
 	Port(
 		Clock :IN STD_LOGIC;
 		readRegister1 					:IN STD_LOGIC_VECTOR(Code-1 DOWNTO 0);
+		regWrite							:IN STD_LOGIC;
 		readRegister2 					:IN STD_LOGIC_VECTOR(Code-1 DOWNTO 0);
 		writeRegister					:IN STD_LOGIC_VECTOR(Code-1 DOWNTO 0 ); -- data out para saida do 2
 		writeData						:IN STD_LOGIC_VECTOR(N-1 DOWNTO 0 );
