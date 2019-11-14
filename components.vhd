@@ -43,4 +43,60 @@ COMPONENT Adder is
 			);
 end COMPONENT;
 
+COMPONENT muxData is
+	port(
+			In1,In2:	in	STD_LOGIC_VECTOR(31 DOWNTO 0);
+			Selector:	in	STD_LOGIC;
+			Saida:	out STD_LOGIC_VECTOR(31 DOWNTO 0)
+		);
+end COMPONENT;
+
+COMPONENT ControlUnit is
+	port (
+		Instruction: 	in std_logic_vector(5 downto 0);
+		Regwrite,RegDst,AluSrc,Memwrite,Memread,Branch,Memtoreg:	out STD_LOGIC;
+		ALUOP:	out std_logic_vector(2 downto 0)
+	);
+end COMPONENT;
+
+COMPONENT RegIFID is
+	port (clock:		in		std_logic;
+	
+			in_pc:		in		std_logic_vector(0 to 31);
+			out_pc:		out	std_logic_vector(0 to 31) := "00000000000000000000000000000000";
+			
+			in_instr:	in		std_logic_vector(0 to 31);
+			out_instr:	out	std_logic_vector(0 to 31) := "00000000000000000000000000000000");
+end COMPONENT;
+
+COMPONENT RegIDEX is
+	port (clock:		in		std_logic;
+	
+			input_instruction_WB: in std_logic_vector(0 to 1);
+			input_instruction_M : in std_logic_vector(0 to 2);
+			input_instruction_EX: in std_logic_vector(0 to 4);
+			
+			output_instruction_WB:	out std_logic_vector(0 to 1) := "00";
+			output_instruction_M:	out std_logic_vector(0 to 2) := "000";
+			output_instruction_EX:	out std_logic_vector(0 to 4) := "00000";
+			
+			input_ProgramCounter: in std_logic_vector(31 DOWNTO 0);
+			output_ProgramCounter: out std_logic_vector(31 DOWNTO 0):= "00000000000000000000000000000000";
+			
+			input_read1:	in		std_logic_vector(31 DOWNTO 0);
+			output_read1:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			
+			input_read2:	in		std_logic_vector(31 DOWNTO 0);
+			output_read2:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			
+			input_imed:		in		std_logic_vector(31 DOWNTO 0);
+			output_imed:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			
+			input_rt:		in		std_logic_vector(4 DOWNTO 0);
+			output_rt:		out	std_logic_vector(4 DOWNTO 0) := "00000";
+			input_rd:		in		std_logic_vector(4 DOWNTO 0);
+			output_rd:		out	std_logic_vector(4 DOWNTO 0) := "00000");
+end COMPONENT;
+
+
 END components;
