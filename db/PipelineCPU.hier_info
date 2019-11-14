@@ -1,120 +1,383 @@
 |PipelineCPU
-Clock => bancoRegistradores:reg.Clock
-readRegister1[0] => bancoRegistradores:reg.readRegister1[0]
-readRegister1[1] => bancoRegistradores:reg.readRegister1[1]
-readRegister1[2] => bancoRegistradores:reg.readRegister1[2]
-readRegister1[3] => bancoRegistradores:reg.readRegister1[3]
-readRegister1[4] => bancoRegistradores:reg.readRegister1[4]
-regWrite => bancoRegistradores:reg.regWrite
-readRegister2[0] => bancoRegistradores:reg.readRegister2[0]
-readRegister2[1] => bancoRegistradores:reg.readRegister2[1]
-readRegister2[2] => bancoRegistradores:reg.readRegister2[2]
-readRegister2[3] => bancoRegistradores:reg.readRegister2[3]
-readRegister2[4] => bancoRegistradores:reg.readRegister2[4]
-writeRegister[0] => bancoRegistradores:reg.writeRegister[0]
-writeRegister[1] => bancoRegistradores:reg.writeRegister[1]
-writeRegister[2] => bancoRegistradores:reg.writeRegister[2]
-writeRegister[3] => bancoRegistradores:reg.writeRegister[3]
-writeRegister[4] => bancoRegistradores:reg.writeRegister[4]
-writeData[0] => bancoRegistradores:reg.writeData[0]
-writeData[1] => bancoRegistradores:reg.writeData[1]
-writeData[2] => bancoRegistradores:reg.writeData[2]
-writeData[3] => bancoRegistradores:reg.writeData[3]
-writeData[4] => bancoRegistradores:reg.writeData[4]
-writeData[5] => bancoRegistradores:reg.writeData[5]
-writeData[6] => bancoRegistradores:reg.writeData[6]
-writeData[7] => bancoRegistradores:reg.writeData[7]
-writeData[8] => bancoRegistradores:reg.writeData[8]
-writeData[9] => bancoRegistradores:reg.writeData[9]
-writeData[10] => bancoRegistradores:reg.writeData[10]
-writeData[11] => bancoRegistradores:reg.writeData[11]
-writeData[12] => bancoRegistradores:reg.writeData[12]
-writeData[13] => bancoRegistradores:reg.writeData[13]
-writeData[14] => bancoRegistradores:reg.writeData[14]
-writeData[15] => bancoRegistradores:reg.writeData[15]
-writeData[16] => bancoRegistradores:reg.writeData[16]
-writeData[17] => bancoRegistradores:reg.writeData[17]
-writeData[18] => bancoRegistradores:reg.writeData[18]
-writeData[19] => bancoRegistradores:reg.writeData[19]
-writeData[20] => bancoRegistradores:reg.writeData[20]
-writeData[21] => bancoRegistradores:reg.writeData[21]
-writeData[22] => bancoRegistradores:reg.writeData[22]
-writeData[23] => bancoRegistradores:reg.writeData[23]
-writeData[24] => bancoRegistradores:reg.writeData[24]
-writeData[25] => bancoRegistradores:reg.writeData[25]
-writeData[26] => bancoRegistradores:reg.writeData[26]
-writeData[27] => bancoRegistradores:reg.writeData[27]
-writeData[28] => bancoRegistradores:reg.writeData[28]
-writeData[29] => bancoRegistradores:reg.writeData[29]
-writeData[30] => bancoRegistradores:reg.writeData[30]
-writeData[31] => bancoRegistradores:reg.writeData[31]
-readData1[0] <= bancoRegistradores:reg.readData1[0]
-readData1[1] <= bancoRegistradores:reg.readData1[1]
-readData1[2] <= bancoRegistradores:reg.readData1[2]
-readData1[3] <= bancoRegistradores:reg.readData1[3]
-readData1[4] <= bancoRegistradores:reg.readData1[4]
-readData1[5] <= bancoRegistradores:reg.readData1[5]
-readData1[6] <= bancoRegistradores:reg.readData1[6]
-readData1[7] <= bancoRegistradores:reg.readData1[7]
-readData1[8] <= bancoRegistradores:reg.readData1[8]
-readData1[9] <= bancoRegistradores:reg.readData1[9]
-readData1[10] <= bancoRegistradores:reg.readData1[10]
-readData1[11] <= bancoRegistradores:reg.readData1[11]
-readData1[12] <= bancoRegistradores:reg.readData1[12]
-readData1[13] <= bancoRegistradores:reg.readData1[13]
-readData1[14] <= bancoRegistradores:reg.readData1[14]
-readData1[15] <= bancoRegistradores:reg.readData1[15]
-readData1[16] <= bancoRegistradores:reg.readData1[16]
-readData1[17] <= bancoRegistradores:reg.readData1[17]
-readData1[18] <= bancoRegistradores:reg.readData1[18]
-readData1[19] <= bancoRegistradores:reg.readData1[19]
-readData1[20] <= bancoRegistradores:reg.readData1[20]
-readData1[21] <= bancoRegistradores:reg.readData1[21]
-readData1[22] <= bancoRegistradores:reg.readData1[22]
-readData1[23] <= bancoRegistradores:reg.readData1[23]
-readData1[24] <= bancoRegistradores:reg.readData1[24]
-readData1[25] <= bancoRegistradores:reg.readData1[25]
-readData1[26] <= bancoRegistradores:reg.readData1[26]
-readData1[27] <= bancoRegistradores:reg.readData1[27]
-readData1[28] <= bancoRegistradores:reg.readData1[28]
-readData1[29] <= bancoRegistradores:reg.readData1[29]
-readData1[30] <= bancoRegistradores:reg.readData1[30]
-readData1[31] <= bancoRegistradores:reg.readData1[31]
-readData2[0] <= bancoRegistradores:reg.readData2[0]
-readData2[1] <= bancoRegistradores:reg.readData2[1]
-readData2[2] <= bancoRegistradores:reg.readData2[2]
-readData2[3] <= bancoRegistradores:reg.readData2[3]
-readData2[4] <= bancoRegistradores:reg.readData2[4]
-readData2[5] <= bancoRegistradores:reg.readData2[5]
-readData2[6] <= bancoRegistradores:reg.readData2[6]
-readData2[7] <= bancoRegistradores:reg.readData2[7]
-readData2[8] <= bancoRegistradores:reg.readData2[8]
-readData2[9] <= bancoRegistradores:reg.readData2[9]
-readData2[10] <= bancoRegistradores:reg.readData2[10]
-readData2[11] <= bancoRegistradores:reg.readData2[11]
-readData2[12] <= bancoRegistradores:reg.readData2[12]
-readData2[13] <= bancoRegistradores:reg.readData2[13]
-readData2[14] <= bancoRegistradores:reg.readData2[14]
-readData2[15] <= bancoRegistradores:reg.readData2[15]
-readData2[16] <= bancoRegistradores:reg.readData2[16]
-readData2[17] <= bancoRegistradores:reg.readData2[17]
-readData2[18] <= bancoRegistradores:reg.readData2[18]
-readData2[19] <= bancoRegistradores:reg.readData2[19]
-readData2[20] <= bancoRegistradores:reg.readData2[20]
-readData2[21] <= bancoRegistradores:reg.readData2[21]
-readData2[22] <= bancoRegistradores:reg.readData2[22]
-readData2[23] <= bancoRegistradores:reg.readData2[23]
-readData2[24] <= bancoRegistradores:reg.readData2[24]
-readData2[25] <= bancoRegistradores:reg.readData2[25]
-readData2[26] <= bancoRegistradores:reg.readData2[26]
-readData2[27] <= bancoRegistradores:reg.readData2[27]
-readData2[28] <= bancoRegistradores:reg.readData2[28]
-readData2[29] <= bancoRegistradores:reg.readData2[29]
-readData2[30] <= bancoRegistradores:reg.readData2[30]
-readData2[31] <= bancoRegistradores:reg.readData2[31]
+Clock => ProgramCounter:pcounter.clock
+Clock => bancoRegistradores:regBd.Clock
+readRegister1[0] => bancoRegistradores:regBd.readRegister1[0]
+readRegister1[1] => bancoRegistradores:regBd.readRegister1[1]
+readRegister1[2] => bancoRegistradores:regBd.readRegister1[2]
+readRegister1[3] => bancoRegistradores:regBd.readRegister1[3]
+readRegister1[4] => bancoRegistradores:regBd.readRegister1[4]
+regWrite => bancoRegistradores:regBd.regWrite
+readRegister2[0] => bancoRegistradores:regBd.readRegister2[0]
+readRegister2[1] => bancoRegistradores:regBd.readRegister2[1]
+readRegister2[2] => bancoRegistradores:regBd.readRegister2[2]
+readRegister2[3] => bancoRegistradores:regBd.readRegister2[3]
+readRegister2[4] => bancoRegistradores:regBd.readRegister2[4]
+writeRegister[0] => bancoRegistradores:regBd.writeRegister[0]
+writeRegister[1] => bancoRegistradores:regBd.writeRegister[1]
+writeRegister[2] => bancoRegistradores:regBd.writeRegister[2]
+writeRegister[3] => bancoRegistradores:regBd.writeRegister[3]
+writeRegister[4] => bancoRegistradores:regBd.writeRegister[4]
+writeData[0] => bancoRegistradores:regBd.writeData[0]
+writeData[1] => bancoRegistradores:regBd.writeData[1]
+writeData[2] => bancoRegistradores:regBd.writeData[2]
+writeData[3] => bancoRegistradores:regBd.writeData[3]
+writeData[4] => bancoRegistradores:regBd.writeData[4]
+writeData[5] => bancoRegistradores:regBd.writeData[5]
+writeData[6] => bancoRegistradores:regBd.writeData[6]
+writeData[7] => bancoRegistradores:regBd.writeData[7]
+writeData[8] => bancoRegistradores:regBd.writeData[8]
+writeData[9] => bancoRegistradores:regBd.writeData[9]
+writeData[10] => bancoRegistradores:regBd.writeData[10]
+writeData[11] => bancoRegistradores:regBd.writeData[11]
+writeData[12] => bancoRegistradores:regBd.writeData[12]
+writeData[13] => bancoRegistradores:regBd.writeData[13]
+writeData[14] => bancoRegistradores:regBd.writeData[14]
+writeData[15] => bancoRegistradores:regBd.writeData[15]
+writeData[16] => bancoRegistradores:regBd.writeData[16]
+writeData[17] => bancoRegistradores:regBd.writeData[17]
+writeData[18] => bancoRegistradores:regBd.writeData[18]
+writeData[19] => bancoRegistradores:regBd.writeData[19]
+writeData[20] => bancoRegistradores:regBd.writeData[20]
+writeData[21] => bancoRegistradores:regBd.writeData[21]
+writeData[22] => bancoRegistradores:regBd.writeData[22]
+writeData[23] => bancoRegistradores:regBd.writeData[23]
+writeData[24] => bancoRegistradores:regBd.writeData[24]
+writeData[25] => bancoRegistradores:regBd.writeData[25]
+writeData[26] => bancoRegistradores:regBd.writeData[26]
+writeData[27] => bancoRegistradores:regBd.writeData[27]
+writeData[28] => bancoRegistradores:regBd.writeData[28]
+writeData[29] => bancoRegistradores:regBd.writeData[29]
+writeData[30] => bancoRegistradores:regBd.writeData[30]
+writeData[31] => bancoRegistradores:regBd.writeData[31]
+readData1[0] <= bancoRegistradores:regBd.readData1[0]
+readData1[1] <= bancoRegistradores:regBd.readData1[1]
+readData1[2] <= bancoRegistradores:regBd.readData1[2]
+readData1[3] <= bancoRegistradores:regBd.readData1[3]
+readData1[4] <= bancoRegistradores:regBd.readData1[4]
+readData1[5] <= bancoRegistradores:regBd.readData1[5]
+readData1[6] <= bancoRegistradores:regBd.readData1[6]
+readData1[7] <= bancoRegistradores:regBd.readData1[7]
+readData1[8] <= bancoRegistradores:regBd.readData1[8]
+readData1[9] <= bancoRegistradores:regBd.readData1[9]
+readData1[10] <= bancoRegistradores:regBd.readData1[10]
+readData1[11] <= bancoRegistradores:regBd.readData1[11]
+readData1[12] <= bancoRegistradores:regBd.readData1[12]
+readData1[13] <= bancoRegistradores:regBd.readData1[13]
+readData1[14] <= bancoRegistradores:regBd.readData1[14]
+readData1[15] <= bancoRegistradores:regBd.readData1[15]
+readData1[16] <= bancoRegistradores:regBd.readData1[16]
+readData1[17] <= bancoRegistradores:regBd.readData1[17]
+readData1[18] <= bancoRegistradores:regBd.readData1[18]
+readData1[19] <= bancoRegistradores:regBd.readData1[19]
+readData1[20] <= bancoRegistradores:regBd.readData1[20]
+readData1[21] <= bancoRegistradores:regBd.readData1[21]
+readData1[22] <= bancoRegistradores:regBd.readData1[22]
+readData1[23] <= bancoRegistradores:regBd.readData1[23]
+readData1[24] <= bancoRegistradores:regBd.readData1[24]
+readData1[25] <= bancoRegistradores:regBd.readData1[25]
+readData1[26] <= bancoRegistradores:regBd.readData1[26]
+readData1[27] <= bancoRegistradores:regBd.readData1[27]
+readData1[28] <= bancoRegistradores:regBd.readData1[28]
+readData1[29] <= bancoRegistradores:regBd.readData1[29]
+readData1[30] <= bancoRegistradores:regBd.readData1[30]
+readData1[31] <= bancoRegistradores:regBd.readData1[31]
+readData2[0] <= bancoRegistradores:regBd.readData2[0]
+readData2[1] <= bancoRegistradores:regBd.readData2[1]
+readData2[2] <= bancoRegistradores:regBd.readData2[2]
+readData2[3] <= bancoRegistradores:regBd.readData2[3]
+readData2[4] <= bancoRegistradores:regBd.readData2[4]
+readData2[5] <= bancoRegistradores:regBd.readData2[5]
+readData2[6] <= bancoRegistradores:regBd.readData2[6]
+readData2[7] <= bancoRegistradores:regBd.readData2[7]
+readData2[8] <= bancoRegistradores:regBd.readData2[8]
+readData2[9] <= bancoRegistradores:regBd.readData2[9]
+readData2[10] <= bancoRegistradores:regBd.readData2[10]
+readData2[11] <= bancoRegistradores:regBd.readData2[11]
+readData2[12] <= bancoRegistradores:regBd.readData2[12]
+readData2[13] <= bancoRegistradores:regBd.readData2[13]
+readData2[14] <= bancoRegistradores:regBd.readData2[14]
+readData2[15] <= bancoRegistradores:regBd.readData2[15]
+readData2[16] <= bancoRegistradores:regBd.readData2[16]
+readData2[17] <= bancoRegistradores:regBd.readData2[17]
+readData2[18] <= bancoRegistradores:regBd.readData2[18]
+readData2[19] <= bancoRegistradores:regBd.readData2[19]
+readData2[20] <= bancoRegistradores:regBd.readData2[20]
+readData2[21] <= bancoRegistradores:regBd.readData2[21]
+readData2[22] <= bancoRegistradores:regBd.readData2[22]
+readData2[23] <= bancoRegistradores:regBd.readData2[23]
+readData2[24] <= bancoRegistradores:regBd.readData2[24]
+readData2[25] <= bancoRegistradores:regBd.readData2[25]
+readData2[26] <= bancoRegistradores:regBd.readData2[26]
+readData2[27] <= bancoRegistradores:regBd.readData2[27]
+readData2[28] <= bancoRegistradores:regBd.readData2[28]
+readData2[29] <= bancoRegistradores:regBd.readData2[29]
+readData2[30] <= bancoRegistradores:regBd.readData2[30]
+readData2[31] <= bancoRegistradores:regBd.readData2[31]
+instrucao[31] <= instructionMemory:memoriaInstrucoes.instrucao[31]
+instrucao[30] <= instructionMemory:memoriaInstrucoes.instrucao[30]
+instrucao[29] <= instructionMemory:memoriaInstrucoes.instrucao[29]
+instrucao[28] <= instructionMemory:memoriaInstrucoes.instrucao[28]
+instrucao[27] <= instructionMemory:memoriaInstrucoes.instrucao[27]
+instrucao[26] <= instructionMemory:memoriaInstrucoes.instrucao[26]
+instrucao[25] <= instructionMemory:memoriaInstrucoes.instrucao[25]
+instrucao[24] <= instructionMemory:memoriaInstrucoes.instrucao[24]
+instrucao[23] <= instructionMemory:memoriaInstrucoes.instrucao[23]
+instrucao[22] <= instructionMemory:memoriaInstrucoes.instrucao[22]
+instrucao[21] <= instructionMemory:memoriaInstrucoes.instrucao[21]
+instrucao[20] <= instructionMemory:memoriaInstrucoes.instrucao[20]
+instrucao[19] <= instructionMemory:memoriaInstrucoes.instrucao[19]
+instrucao[18] <= instructionMemory:memoriaInstrucoes.instrucao[18]
+instrucao[17] <= instructionMemory:memoriaInstrucoes.instrucao[17]
+instrucao[16] <= instructionMemory:memoriaInstrucoes.instrucao[16]
+instrucao[15] <= instructionMemory:memoriaInstrucoes.instrucao[15]
+instrucao[14] <= instructionMemory:memoriaInstrucoes.instrucao[14]
+instrucao[13] <= instructionMemory:memoriaInstrucoes.instrucao[13]
+instrucao[12] <= instructionMemory:memoriaInstrucoes.instrucao[12]
+instrucao[11] <= instructionMemory:memoriaInstrucoes.instrucao[11]
+instrucao[10] <= instructionMemory:memoriaInstrucoes.instrucao[10]
+instrucao[9] <= instructionMemory:memoriaInstrucoes.instrucao[9]
+instrucao[8] <= instructionMemory:memoriaInstrucoes.instrucao[8]
+instrucao[7] <= instructionMemory:memoriaInstrucoes.instrucao[7]
+instrucao[6] <= instructionMemory:memoriaInstrucoes.instrucao[6]
+instrucao[5] <= instructionMemory:memoriaInstrucoes.instrucao[5]
+instrucao[4] <= instructionMemory:memoriaInstrucoes.instrucao[4]
+instrucao[3] <= instructionMemory:memoriaInstrucoes.instrucao[3]
+instrucao[2] <= instructionMemory:memoriaInstrucoes.instrucao[2]
+instrucao[1] <= instructionMemory:memoriaInstrucoes.instrucao[1]
+instrucao[0] <= instructionMemory:memoriaInstrucoes.instrucao[0]
+pc_upd[31] => ProgramCounter:pcounter.pc_upd[31]
+pc_upd[30] => ProgramCounter:pcounter.pc_upd[30]
+pc_upd[29] => ProgramCounter:pcounter.pc_upd[29]
+pc_upd[28] => ProgramCounter:pcounter.pc_upd[28]
+pc_upd[27] => ProgramCounter:pcounter.pc_upd[27]
+pc_upd[26] => ProgramCounter:pcounter.pc_upd[26]
+pc_upd[25] => ProgramCounter:pcounter.pc_upd[25]
+pc_upd[24] => ProgramCounter:pcounter.pc_upd[24]
+pc_upd[23] => ProgramCounter:pcounter.pc_upd[23]
+pc_upd[22] => ProgramCounter:pcounter.pc_upd[22]
+pc_upd[21] => ProgramCounter:pcounter.pc_upd[21]
+pc_upd[20] => ProgramCounter:pcounter.pc_upd[20]
+pc_upd[19] => ProgramCounter:pcounter.pc_upd[19]
+pc_upd[18] => ProgramCounter:pcounter.pc_upd[18]
+pc_upd[17] => ProgramCounter:pcounter.pc_upd[17]
+pc_upd[16] => ProgramCounter:pcounter.pc_upd[16]
+pc_upd[15] => ProgramCounter:pcounter.pc_upd[15]
+pc_upd[14] => ProgramCounter:pcounter.pc_upd[14]
+pc_upd[13] => ProgramCounter:pcounter.pc_upd[13]
+pc_upd[12] => ProgramCounter:pcounter.pc_upd[12]
+pc_upd[11] => ProgramCounter:pcounter.pc_upd[11]
+pc_upd[10] => ProgramCounter:pcounter.pc_upd[10]
+pc_upd[9] => ProgramCounter:pcounter.pc_upd[9]
+pc_upd[8] => ProgramCounter:pcounter.pc_upd[8]
+pc_upd[7] => ProgramCounter:pcounter.pc_upd[7]
+pc_upd[6] => ProgramCounter:pcounter.pc_upd[6]
+pc_upd[5] => ProgramCounter:pcounter.pc_upd[5]
+pc_upd[4] => ProgramCounter:pcounter.pc_upd[4]
+pc_upd[3] => ProgramCounter:pcounter.pc_upd[3]
+pc_upd[2] => ProgramCounter:pcounter.pc_upd[2]
+pc_upd[1] => ProgramCounter:pcounter.pc_upd[1]
+pc_upd[0] => ProgramCounter:pcounter.pc_upd[0]
 
 
-|PipelineCPU|bancoRegistradores:reg
+|PipelineCPU|ProgramCounter:pcounter
+clock => pc[31]~reg0.CLK
+clock => pc[30]~reg0.CLK
+clock => pc[29]~reg0.CLK
+clock => pc[28]~reg0.CLK
+clock => pc[27]~reg0.CLK
+clock => pc[26]~reg0.CLK
+clock => pc[25]~reg0.CLK
+clock => pc[24]~reg0.CLK
+clock => pc[23]~reg0.CLK
+clock => pc[22]~reg0.CLK
+clock => pc[21]~reg0.CLK
+clock => pc[20]~reg0.CLK
+clock => pc[19]~reg0.CLK
+clock => pc[18]~reg0.CLK
+clock => pc[17]~reg0.CLK
+clock => pc[16]~reg0.CLK
+clock => pc[15]~reg0.CLK
+clock => pc[14]~reg0.CLK
+clock => pc[13]~reg0.CLK
+clock => pc[12]~reg0.CLK
+clock => pc[11]~reg0.CLK
+clock => pc[10]~reg0.CLK
+clock => pc[9]~reg0.CLK
+clock => pc[8]~reg0.CLK
+clock => pc[7]~reg0.CLK
+clock => pc[6]~reg0.CLK
+clock => pc[5]~reg0.CLK
+clock => pc[4]~reg0.CLK
+clock => pc[3]~reg0.CLK
+clock => pc[2]~reg0.CLK
+clock => pc[1]~reg0.CLK
+clock => pc[0]~reg0.CLK
+pc_upd[31] => pc[31]~reg0.DATAIN
+pc_upd[30] => pc[30]~reg0.DATAIN
+pc_upd[29] => pc[29]~reg0.DATAIN
+pc_upd[28] => pc[28]~reg0.DATAIN
+pc_upd[27] => pc[27]~reg0.DATAIN
+pc_upd[26] => pc[26]~reg0.DATAIN
+pc_upd[25] => pc[25]~reg0.DATAIN
+pc_upd[24] => pc[24]~reg0.DATAIN
+pc_upd[23] => pc[23]~reg0.DATAIN
+pc_upd[22] => pc[22]~reg0.DATAIN
+pc_upd[21] => pc[21]~reg0.DATAIN
+pc_upd[20] => pc[20]~reg0.DATAIN
+pc_upd[19] => pc[19]~reg0.DATAIN
+pc_upd[18] => pc[18]~reg0.DATAIN
+pc_upd[17] => pc[17]~reg0.DATAIN
+pc_upd[16] => pc[16]~reg0.DATAIN
+pc_upd[15] => pc[15]~reg0.DATAIN
+pc_upd[14] => pc[14]~reg0.DATAIN
+pc_upd[13] => pc[13]~reg0.DATAIN
+pc_upd[12] => pc[12]~reg0.DATAIN
+pc_upd[11] => pc[11]~reg0.DATAIN
+pc_upd[10] => pc[10]~reg0.DATAIN
+pc_upd[9] => pc[9]~reg0.DATAIN
+pc_upd[8] => pc[8]~reg0.DATAIN
+pc_upd[7] => pc[7]~reg0.DATAIN
+pc_upd[6] => pc[6]~reg0.DATAIN
+pc_upd[5] => pc[5]~reg0.DATAIN
+pc_upd[4] => pc[4]~reg0.DATAIN
+pc_upd[3] => pc[3]~reg0.DATAIN
+pc_upd[2] => pc[2]~reg0.DATAIN
+pc_upd[1] => pc[1]~reg0.DATAIN
+pc_upd[0] => pc[0]~reg0.DATAIN
+pc[31] <= pc[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[30] <= pc[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[29] <= pc[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[28] <= pc[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[27] <= pc[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[26] <= pc[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[25] <= pc[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[24] <= pc[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[23] <= pc[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[22] <= pc[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[21] <= pc[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[20] <= pc[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[19] <= pc[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[18] <= pc[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[17] <= pc[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[16] <= pc[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[15] <= pc[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[14] <= pc[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[13] <= pc[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[12] <= pc[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[11] <= pc[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[10] <= pc[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[9] <= pc[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[8] <= pc[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[7] <= pc[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[6] <= pc[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[5] <= pc[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[4] <= pc[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[3] <= pc[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[2] <= pc[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[1] <= pc[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc[0] <= pc[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PipelineCPU|Adder:adderParaPC
+reg1[0] => Add0.IN32
+reg1[1] => Add0.IN31
+reg1[2] => Add0.IN30
+reg1[3] => Add0.IN29
+reg1[4] => Add0.IN28
+reg1[5] => Add0.IN27
+reg1[6] => Add0.IN26
+reg1[7] => Add0.IN25
+reg1[8] => Add0.IN24
+reg1[9] => Add0.IN23
+reg1[10] => Add0.IN22
+reg1[11] => Add0.IN21
+reg1[12] => Add0.IN20
+reg1[13] => Add0.IN19
+reg1[14] => Add0.IN18
+reg1[15] => Add0.IN17
+reg1[16] => Add0.IN16
+reg1[17] => Add0.IN15
+reg1[18] => Add0.IN14
+reg1[19] => Add0.IN13
+reg1[20] => Add0.IN12
+reg1[21] => Add0.IN11
+reg1[22] => Add0.IN10
+reg1[23] => Add0.IN9
+reg1[24] => Add0.IN8
+reg1[25] => Add0.IN7
+reg1[26] => Add0.IN6
+reg1[27] => Add0.IN5
+reg1[28] => Add0.IN4
+reg1[29] => Add0.IN3
+reg1[30] => Add0.IN2
+reg1[31] => Add0.IN1
+reg2[0] => Add0.IN64
+reg2[1] => Add0.IN63
+reg2[2] => Add0.IN62
+reg2[3] => Add0.IN61
+reg2[4] => Add0.IN60
+reg2[5] => Add0.IN59
+reg2[6] => Add0.IN58
+reg2[7] => Add0.IN57
+reg2[8] => Add0.IN56
+reg2[9] => Add0.IN55
+reg2[10] => Add0.IN54
+reg2[11] => Add0.IN53
+reg2[12] => Add0.IN52
+reg2[13] => Add0.IN51
+reg2[14] => Add0.IN50
+reg2[15] => Add0.IN49
+reg2[16] => Add0.IN48
+reg2[17] => Add0.IN47
+reg2[18] => Add0.IN46
+reg2[19] => Add0.IN45
+reg2[20] => Add0.IN44
+reg2[21] => Add0.IN43
+reg2[22] => Add0.IN42
+reg2[23] => Add0.IN41
+reg2[24] => Add0.IN40
+reg2[25] => Add0.IN39
+reg2[26] => Add0.IN38
+reg2[27] => Add0.IN37
+reg2[28] => Add0.IN36
+reg2[29] => Add0.IN35
+reg2[30] => Add0.IN34
+reg2[31] => Add0.IN33
+Adder_out[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[8] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[9] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[10] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[11] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[12] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[13] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[16] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[17] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[18] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[19] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[20] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[21] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[22] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[23] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[24] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[25] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[26] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[27] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[28] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[29] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Adder_out[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PipelineCPU|bancoRegistradores:regBd
 Clock => regWithTriState:reg0.Clock
 Clock => regWithTriState:reg1.Clock
 Clock => regWithTriState:reg2.Clock
@@ -1284,7 +1547,7 @@ readData2[30] <= readData2[30].DB_MAX_OUTPUT_PORT_TYPE
 readData2[31] <= readData2[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg0
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -1387,7 +1650,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -1518,7 +1781,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -1617,7 +1880,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg0|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -1716,7 +1979,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg1
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -1819,7 +2082,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg1|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg1|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -1950,7 +2213,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg1|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg1|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -2049,7 +2312,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg1|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg1|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -2148,7 +2411,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg2
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -2251,7 +2514,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg2|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg2|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -2382,7 +2645,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg2|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg2|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -2481,7 +2744,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg2|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg2|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -2580,7 +2843,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg3
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg3
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -2683,7 +2946,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg3|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg3|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -2814,7 +3077,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg3|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg3|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -2913,7 +3176,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg3|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg3|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -3012,7 +3275,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg4
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg4
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -3115,7 +3378,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg4|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg4|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -3246,7 +3509,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg4|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg4|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -3345,7 +3608,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg4|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg4|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -3444,7 +3707,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg5
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg5
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -3547,7 +3810,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg5|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg5|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -3678,7 +3941,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg5|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg5|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -3777,7 +4040,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg5|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg5|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -3876,7 +4139,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg6
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg6
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -3979,7 +4242,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg6|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg6|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -4110,7 +4373,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg6|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg6|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -4209,7 +4472,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg6|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg6|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -4308,7 +4571,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg7
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg7
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -4411,7 +4674,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg7|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg7|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -4542,7 +4805,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg7|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg7|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -4641,7 +4904,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg7|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg7|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -4740,7 +5003,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg8
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg8
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -4843,7 +5106,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg8|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg8|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -4974,7 +5237,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg8|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg8|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -5073,7 +5336,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg8|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg8|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -5172,7 +5435,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg9
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -5275,7 +5538,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg9|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -5406,7 +5669,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg9|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -5505,7 +5768,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg9|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -5604,7 +5867,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg10
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg10
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -5707,7 +5970,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg10|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg10|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -5838,7 +6101,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg10|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg10|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -5937,7 +6200,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg10|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg10|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -6036,7 +6299,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg11
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg11
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -6139,7 +6402,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg11|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg11|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -6270,7 +6533,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg11|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg11|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -6369,7 +6632,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg11|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg11|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -6468,7 +6731,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg12
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg12
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -6571,7 +6834,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg12|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg12|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -6702,7 +6965,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg12|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg12|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -6801,7 +7064,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg12|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg12|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -6900,7 +7163,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg13
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg13
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -7003,7 +7266,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg13|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg13|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -7134,7 +7397,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg13|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg13|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -7233,7 +7496,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg13|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg13|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -7332,7 +7595,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg14
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg14
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -7435,7 +7698,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg14|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg14|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -7566,7 +7829,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg14|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg14|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -7665,7 +7928,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg14|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg14|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -7764,7 +8027,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg15
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg15
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -7867,7 +8130,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg15|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg15|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -7998,7 +8261,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg15|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg15|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -8097,7 +8360,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg15|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg15|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -8196,7 +8459,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg16
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg16
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -8299,7 +8562,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg16|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg16|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -8430,7 +8693,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg16|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg16|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -8529,7 +8792,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg16|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg16|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -8628,7 +8891,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg17
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg17
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -8731,7 +8994,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg17|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg17|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -8862,7 +9125,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg17|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg17|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -8961,7 +9224,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg17|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg17|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -9060,7 +9323,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg18
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg18
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -9163,7 +9426,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg18|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg18|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -9294,7 +9557,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg18|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg18|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -9393,7 +9656,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg18|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg18|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -9492,7 +9755,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg19
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg19
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -9595,7 +9858,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg19|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg19|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -9726,7 +9989,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg19|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg19|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -9825,7 +10088,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg19|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg19|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -9924,7 +10187,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg20
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg20
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -10027,7 +10290,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg20|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg20|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -10158,7 +10421,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg20|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg20|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -10257,7 +10520,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg20|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg20|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -10356,7 +10619,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg21
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg21
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -10459,7 +10722,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg21|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg21|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -10590,7 +10853,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg21|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg21|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -10689,7 +10952,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg21|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg21|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -10788,7 +11051,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg22
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg22
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -10891,7 +11154,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg22|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg22|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -11022,7 +11285,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg22|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg22|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -11121,7 +11384,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg22|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg22|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -11220,7 +11483,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg23
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg23
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -11323,7 +11586,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg23|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg23|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -11454,7 +11717,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg23|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg23|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -11553,7 +11816,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg23|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg23|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -11652,7 +11915,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg24
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg24
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -11755,7 +12018,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg24|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg24|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -11886,7 +12149,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg24|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg24|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -11985,7 +12248,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg24|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg24|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -12084,7 +12347,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg25
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg25
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -12187,7 +12450,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg25|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg25|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -12318,7 +12581,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg25|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg25|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -12417,7 +12680,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg25|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg25|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -12516,7 +12779,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg26
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg26
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -12619,7 +12882,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg26|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg26|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -12750,7 +13013,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg26|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg26|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -12849,7 +13112,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg26|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg26|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -12948,7 +13211,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg27
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg27
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -13051,7 +13314,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg27|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg27|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -13182,7 +13445,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg27|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg27|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -13281,7 +13544,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg27|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg27|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -13380,7 +13643,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg28
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg28
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -13483,7 +13746,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg28|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg28|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -13614,7 +13877,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg28|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg28|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -13713,7 +13976,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg28|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg28|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -13812,7 +14075,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg29
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg29
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -13915,7 +14178,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg29|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg29|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -14046,7 +14309,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg29|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg29|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -14145,7 +14408,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg29|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg29|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -14244,7 +14507,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg30
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg30
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -14347,7 +14610,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg30|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg30|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -14478,7 +14741,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg30|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg30|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -14577,7 +14840,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg30|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg30|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -14676,7 +14939,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg31
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg31
 Clock => registrador:reg.Clock
 Data[0] => registrador:reg.R[0]
 Data[1] => registrador:reg.R[1]
@@ -14779,7 +15042,7 @@ Rout1 => triStateBuffer:tri1.E
 Rout2 => triStateBuffer:tri2.E
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg31|registrador:reg
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg31|registrador:reg
 Clock => Q[0]~reg0.CLK
 Clock => Q[1]~reg0.CLK
 Clock => Q[2]~reg0.CLK
@@ -14910,7 +15173,7 @@ Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg31|triStateBuffer:tri1
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri1
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -15009,7 +15272,7 @@ F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|PipelineCPU|bancoRegistradores:reg|regWithTriState:reg31|triStateBuffer:tri2
+|PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri2
 X[0] => F[0].DATAIN
 X[1] => F[1].DATAIN
 X[2] => F[2].DATAIN
@@ -15106,5 +15369,72 @@ F[28] <= F[28].DB_MAX_OUTPUT_PORT_TYPE
 F[29] <= F[29].DB_MAX_OUTPUT_PORT_TYPE
 F[30] <= F[30].DB_MAX_OUTPUT_PORT_TYPE
 F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PipelineCPU|instructionMemory:memoriaInstrucoes
+endereco[31] => ~NO_FANOUT~
+endereco[30] => ~NO_FANOUT~
+endereco[29] => ~NO_FANOUT~
+endereco[28] => ~NO_FANOUT~
+endereco[27] => ~NO_FANOUT~
+endereco[26] => ~NO_FANOUT~
+endereco[25] => ~NO_FANOUT~
+endereco[24] => ~NO_FANOUT~
+endereco[23] => ~NO_FANOUT~
+endereco[22] => ~NO_FANOUT~
+endereco[21] => ~NO_FANOUT~
+endereco[20] => ~NO_FANOUT~
+endereco[19] => ~NO_FANOUT~
+endereco[18] => ~NO_FANOUT~
+endereco[17] => ~NO_FANOUT~
+endereco[16] => ~NO_FANOUT~
+endereco[15] => ~NO_FANOUT~
+endereco[14] => ~NO_FANOUT~
+endereco[13] => ~NO_FANOUT~
+endereco[12] => ~NO_FANOUT~
+endereco[11] => ~NO_FANOUT~
+endereco[10] => ~NO_FANOUT~
+endereco[9] => ~NO_FANOUT~
+endereco[8] => ~NO_FANOUT~
+endereco[7] => ~NO_FANOUT~
+endereco[6] => ~NO_FANOUT~
+endereco[5] => ~NO_FANOUT~
+endereco[4] => ~NO_FANOUT~
+endereco[3] => ~NO_FANOUT~
+endereco[2] => ~NO_FANOUT~
+endereco[1] => ~NO_FANOUT~
+endereco[0] => ~NO_FANOUT~
+instrucao[31] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+instrucao[30] <= instrucao[30].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[29] <= instrucao[29].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[28] <= instrucao[28].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[27] <= instrucao[27].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[26] <= instrucao[26].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[25] <= instrucao[25].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[24] <= instrucao[24].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[23] <= instrucao[23].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[22] <= instrucao[22].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[21] <= instrucao[21].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[20] <= instrucao[20].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[19] <= instrucao[19].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[18] <= instrucao[18].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[17] <= instrucao[17].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[16] <= instrucao[16].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[15] <= instrucao[15].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[14] <= instrucao[14].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[13] <= instrucao[13].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[12] <= instrucao[12].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[11] <= instrucao[11].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[10] <= instrucao[10].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[9] <= instrucao[9].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[8] <= instrucao[8].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[7] <= instrucao[7].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[6] <= instrucao[6].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[5] <= instrucao[5].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[4] <= instrucao[4].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[3] <= instrucao[3].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[2] <= instrucao[2].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[1] <= instrucao[1].DB_MAX_OUTPUT_PORT_TYPE
+instrucao[0] <= instrucao[0].DB_MAX_OUTPUT_PORT_TYPE
 
 

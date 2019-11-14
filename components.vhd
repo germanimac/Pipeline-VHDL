@@ -20,7 +20,27 @@ COMPONENT bancoRegistradores IS
 
 END component;
 
+COMPONENT instructionMemory IS
+	port(
+		endereco: in std_logic_vector(0 to 31);
+		instrucao: out std_logic_vector(0 to 31)
+);
+END COMPONENT;
 
+COMPONENT ProgramCounter IS
+port	(
+			clock:	in  std_logic;
+			pc_upd:	in  std_logic_vector(0 to 31);
+			pc:		out std_logic_vector(0 to 31) 
+		);
+		
+END COMPONENT;
 
+COMPONENT Adder is 
+	port (reg1: in std_logic_vector(31 downto 0);
+			reg2: in std_logic_vector(31 downto 0);	
+			Adder_out: out std_logic_vector(31 downto 0)
+			);
+end COMPONENT;
 
 END components;
