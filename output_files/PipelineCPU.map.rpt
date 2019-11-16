@@ -1,6 +1,6 @@
 Analysis & Synthesis report for PipelineCPU
-Thu Nov 14 16:48:38 2019
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Sat Nov 16 18:09:37 2019
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -144,12 +144,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 136. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|registrador:reg
 137. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri1
 138. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri2
-139. Port Connectivity Checks: "RegIDEX:RIDEX"
-140. Port Connectivity Checks: "RegIFID:RIFIF"
-141. Port Connectivity Checks: "Adder:adderParaPC"
-142. Post-Synthesis Netlist Statistics for Top Partition
-143. Elapsed Time Per Partition
-144. Analysis & Synthesis Messages
+139. Port Connectivity Checks: "Adder:adderParaPC"
+140. Post-Synthesis Netlist Statistics for Top Partition
+141. Elapsed Time Per Partition
+142. Analysis & Synthesis Messages
 
 
 
@@ -175,8 +173,8 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 14 16:48:38 2019       ;
-; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov 16 18:09:37 2019       ;
+; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; PipelineCPU                                 ;
 ; Top-level Entity Name              ; PipelineCPU                                 ;
 ; Family                             ; Cyclone IV E                                ;
@@ -184,7 +182,7 @@ refer to the applicable agreement for further details.
 ;     Total combinational functions  ; 0                                           ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 80                                          ;
+; Total pins                         ; 43                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -294,26 +292,34 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                     ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                              ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
-; Adder.vhd                        ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/Adder.vhd                ;         ;
-; ProgramCounter.vhd               ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ProgramCounter.vhd       ;         ;
-; instructionMemory.vhd            ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/instructionMemory.vhd    ;         ;
-; triStateBuffer.vhd               ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/triStateBuffer.vhd       ;         ;
-; regWithTriState.vhd              ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regWithTriState.vhd      ;         ;
-; registrador.vhd                  ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/registrador.vhd          ;         ;
-; PipelineCPU.vhd                  ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd          ;         ;
-; componentsForRegBank.vhd         ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/componentsForRegBank.vhd ;         ;
-; components.vhd                   ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/components.vhd           ;         ;
-; bancoRegistradores.vhd           ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/bancoRegistradores.vhd   ;         ;
-; muxData.vhd                      ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/muxData.vhd              ;         ;
-; ControlUnit.vhd                  ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd          ;         ;
-; RegIFID.vhd                      ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/RegIFID.vhd              ;         ;
-; RegIDEX.vhd                      ; yes             ; User VHDL File  ; C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/RegIDEX.vhd              ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                             ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+; Adder.vhd                        ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Adder.vhd                ;         ;
+; ProgramCounter.vhd               ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ProgramCounter.vhd       ;         ;
+; instructionMemory.vhd            ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd    ;         ;
+; triStateBuffer.vhd               ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/triStateBuffer.vhd       ;         ;
+; regWithTriState.vhd              ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd      ;         ;
+; registrador.vhd                  ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/registrador.vhd          ;         ;
+; PipelineCPU.vhd                  ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd          ;         ;
+; componentsForRegBank.vhd         ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/componentsForRegBank.vhd ;         ;
+; components.vhd                   ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/components.vhd           ;         ;
+; bancoRegistradores.vhd           ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/bancoRegistradores.vhd   ;         ;
+; muxData.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxData.vhd              ;         ;
+; ControlUnit.vhd                  ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd          ;         ;
+; RegIFID.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIFID.vhd              ;         ;
+; RegIDEX.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIDEX.vhd              ;         ;
+; signextend.vhd                   ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/signextend.vhd           ;         ;
+; muxRegAdd.vhd                    ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxRegAdd.vhd            ;         ;
+; Aluctrl.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Aluctrl.vhd              ;         ;
+; ULA.vhd                          ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd                  ;         ;
+; shiftleft.vhd                    ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/shiftleft.vhd            ;         ;
+; REGEXMEM.vhd                     ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/REGEXMEM.vhd             ;         ;
+; memData.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd              ;         ;
+; RegMEMWB.vhd                     ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegMEMWB.vhd             ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -336,13 +342,13 @@ refer to the applicable agreement for further details.
 ;     -- Dedicated logic registers            ; 0     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 80    ;
+; I/O pins                                    ; 43    ;
 ;                                             ;       ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ;                                             ;       ;
 ; Maximum fan-out node                        ; Clock ;
 ; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 80    ;
+; Total fan-out                               ; 43    ;
 ; Average fan-out                             ; 0.50  ;
 +---------------------------------------------+-------+
 
@@ -352,7 +358,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |PipelineCPU               ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 80   ; 0            ; |PipelineCPU        ; PipelineCPU ; work         ;
+; |PipelineCPU               ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 43   ; 0            ; |PipelineCPU        ; PipelineCPU ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1674,32 +1680,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RegIDEX:RIDEX"                                                                                       ;
-+-----------------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port                  ; Type   ; Severity ; Details                                                                             ;
-+-----------------------+--------+----------+-------------------------------------------------------------------------------------+
-; output_instruction_wb ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_instruction_m  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_instruction_ex ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_programcounter ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_read1          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_read2          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_imed           ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_rt             ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; output_rd             ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-----------------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RegIFID:RIFIF"                                                                                   ;
-+-------------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port              ; Type   ; Severity ; Details                                                                             ;
-+-------------------+--------+----------+-------------------------------------------------------------------------------------+
-; out_instr[21..31] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------+
 ; Port Connectivity Checks: "Adder:adderParaPC" ;
 +-------------+-------+----------+--------------+
@@ -1716,7 +1696,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------+---------------------------------+
 ; Type              ; Count                           ;
 +-------------------+---------------------------------+
-; boundary_port     ; 80                              ;
+; boundary_port     ; 43                              ;
 ;                   ;                                 ;
 ; Max LUT depth     ; 0.00                            ;
 ; Average LUT depth ; 0.00                            ;
@@ -1737,179 +1717,170 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 14 16:48:13 2019
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+    Info: Processing started: Sat Nov 16 18:09:20 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off PipelineCPU -c PipelineCPU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file adder.vhd
-    Info (12022): Found design unit 1: Adder-a File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/Adder.vhd Line: 13
-    Info (12023): Found entity 1: Adder File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/Adder.vhd Line: 6
+    Info (12022): Found design unit 1: Adder-a File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Adder.vhd Line: 13
+    Info (12023): Found entity 1: Adder File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Adder.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file programcounter.vhd
-    Info (12022): Found design unit 1: ProgramCounter-count File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ProgramCounter.vhd Line: 12
-    Info (12023): Found entity 1: ProgramCounter File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ProgramCounter.vhd Line: 6
+    Info (12022): Found design unit 1: ProgramCounter-count File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ProgramCounter.vhd Line: 12
+    Info (12023): Found entity 1: ProgramCounter File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ProgramCounter.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file instructionmemory.vhd
-    Info (12022): Found design unit 1: instructionMemory-InstMemory File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/instructionMemory.vhd Line: 13
-    Info (12023): Found entity 1: instructionMemory File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/instructionMemory.vhd Line: 7
+    Info (12022): Found design unit 1: instructionMemory-InstMemory File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 13
+    Info (12023): Found entity 1: instructionMemory File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file tristatebuffer.vhd
-    Info (12022): Found design unit 1: triStateBuffer-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/triStateBuffer.vhd Line: 19
-    Info (12023): Found entity 1: triStateBuffer File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/triStateBuffer.vhd Line: 6
+    Info (12022): Found design unit 1: triStateBuffer-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/triStateBuffer.vhd Line: 19
+    Info (12023): Found entity 1: triStateBuffer File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/triStateBuffer.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file regwithtristate.vhd
-    Info (12022): Found design unit 1: regWithTriState-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regWithTriState.vhd Line: 22
-    Info (12023): Found entity 1: regWithTriState File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regWithTriState.vhd Line: 6
+    Info (12022): Found design unit 1: regWithTriState-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 22
+    Info (12023): Found entity 1: regWithTriState File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file registrador.vhd
-    Info (12022): Found design unit 1: registrador-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/registrador.vhd Line: 13
-    Info (12023): Found entity 1: registrador File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/registrador.vhd Line: 4
+    Info (12022): Found design unit 1: registrador-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/registrador.vhd Line: 13
+    Info (12023): Found entity 1: registrador File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/registrador.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file regbank.vhd
-    Info (12022): Found design unit 1: regBank-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regBank.vhd Line: 24
-    Info (12023): Found entity 1: regBank File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regBank.vhd Line: 6
+    Info (12022): Found design unit 1: regBank-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regBank.vhd Line: 24
+    Info (12023): Found entity 1: regBank File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regBank.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file pipelinecpu.vhd
-    Info (12022): Found design unit 1: PipelineCPU-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 24
-    Info (12023): Found entity 1: PipelineCPU File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 5
+    Info (12022): Found design unit 1: PipelineCPU-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 23
+    Info (12023): Found entity 1: PipelineCPU File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 5
 Info (12021): Found 1 design units, including 0 entities, in source file componentsforregbank.vhd
-    Info (12022): Found design unit 1: componentsForRegBank File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/componentsForRegBank.vhd Line: 5
+    Info (12022): Found design unit 1: componentsForRegBank File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/componentsForRegBank.vhd Line: 5
 Info (12021): Found 1 design units, including 0 entities, in source file components.vhd
-    Info (12022): Found design unit 1: components File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/components.vhd Line: 5
+    Info (12022): Found design unit 1: components File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/components.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file bancoregistradores.vhd
-    Info (12022): Found design unit 1: bancoRegistradores-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/bancoRegistradores.vhd Line: 22
-    Info (12023): Found entity 1: bancoRegistradores File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/bancoRegistradores.vhd Line: 6
+    Info (12022): Found design unit 1: bancoRegistradores-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/bancoRegistradores.vhd Line: 22
+    Info (12023): Found entity 1: bancoRegistradores File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/bancoRegistradores.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file muxdata.vhd
-    Info (12022): Found design unit 1: muxData-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/muxData.vhd Line: 13
-    Info (12023): Found entity 1: muxData File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/muxData.vhd Line: 5
+    Info (12022): Found design unit 1: muxData-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxData.vhd Line: 13
+    Info (12023): Found entity 1: muxData File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxData.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file controlunit.vhd
-    Info (12022): Found design unit 1: ControlUnit-Behavior File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 13
-    Info (12023): Found entity 1: ControlUnit File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 5
+    Info (12022): Found design unit 1: ControlUnit-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 13
+    Info (12023): Found entity 1: ControlUnit File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file regifid.vhd
-    Info (12022): Found design unit 1: RegIFID-a File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/RegIFID.vhd Line: 16
-    Info (12023): Found entity 1: RegIFID File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/RegIFID.vhd Line: 6
+    Info (12022): Found design unit 1: RegIFID-a File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIFID.vhd Line: 16
+    Info (12023): Found entity 1: RegIFID File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIFID.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file regidex.vhd
-    Info (12022): Found design unit 1: RegIDEX-a File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/RegIDEX.vhd Line: 35
-    Info (12023): Found entity 1: RegIDEX File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/RegIDEX.vhd Line: 6
+    Info (12022): Found design unit 1: RegIDEX-a File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIDEX.vhd Line: 35
+    Info (12023): Found entity 1: RegIDEX File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIDEX.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file signextend.vhd
+    Info (12022): Found design unit 1: signextend-sgn File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/signextend.vhd Line: 11
+    Info (12023): Found entity 1: signextend File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/signextend.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file muxregadd.vhd
+    Info (12022): Found design unit 1: muxRegAdd-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxRegAdd.vhd Line: 13
+    Info (12023): Found entity 1: muxRegAdd File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxRegAdd.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file aluctrl.vhd
+    Info (12022): Found design unit 1: Aluctrl-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Aluctrl.vhd Line: 13
+    Info (12023): Found entity 1: Aluctrl File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Aluctrl.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
+    Info (12022): Found design unit 1: ULA-ALU File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 14
+    Info (12023): Found entity 1: ULA File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file shiftleft.vhd
+    Info (12022): Found design unit 1: shiftleft-seila File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/shiftleft.vhd Line: 11
+    Info (12023): Found entity 1: shiftleft File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/shiftleft.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file regexmem.vhd
+    Info (12022): Found design unit 1: RegEXMEM-a File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/REGEXMEM.vhd Line: 26
+    Info (12023): Found entity 1: RegEXMEM File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/REGEXMEM.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file memdata.vhd
+    Info (12022): Found design unit 1: memData-dtm File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 29
+    Info (12023): Found entity 1: memData File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file regmemwb.vhd
+    Info (12022): Found design unit 1: RegMEMWB-a File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegMEMWB.vhd Line: 21
+    Info (12023): Found entity 1: RegMEMWB File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegMEMWB.vhd Line: 6
 Info (12127): Elaborating entity "PipelineCPU" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at PipelineCPU.vhd(28): used implicit default value for signal "branchadd" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 28
-Warning (10541): VHDL Signal Declaration warning at PipelineCPU.vhd(29): used implicit default value for signal "PCSRC" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 29
-Warning (10541): VHDL Signal Declaration warning at PipelineCPU.vhd(31): used implicit default value for signal "regwritefinal" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 31
-Warning (10541): VHDL Signal Declaration warning at PipelineCPU.vhd(37): used implicit default value for signal "Imedid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 37
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(37): object "IMEDEX" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 37
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(38): object "EXWB" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 38
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(39): object "EXM" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 39
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(40): object "REGA" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 40
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(41): object "REGB" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 41
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(42): object "PCEX" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 42
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(43): object "ALUSRCEX" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 43
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(43): object "REGDSTEX" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 43
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(44): object "ALUOPEX" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 44
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(45): object "rtex" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 45
-Warning (10036): Verilog HDL or VHDL warning at PipelineCPU.vhd(45): object "rdex" assigned a value but never read File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 45
-Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:pcounter" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 47
-Info (12128): Elaborating entity "Adder" for hierarchy "Adder:adderParaPC" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 48
-Info (12128): Elaborating entity "bancoRegistradores" for hierarchy "bancoRegistradores:regBd" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 50
-Info (12128): Elaborating entity "regWithTriState" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/bancoRegistradores.vhd Line: 29
-Info (12128): Elaborating entity "registrador" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regWithTriState.vhd Line: 30
-Info (12128): Elaborating entity "triStateBuffer" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/regWithTriState.vhd Line: 31
-Info (12128): Elaborating entity "instructionMemory" for hierarchy "instructionMemory:memoriaInstrucoes" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 51
-Warning (10541): VHDL Signal Declaration warning at instructionMemory.vhd(15): used implicit default value for signal "memoria" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/instructionMemory.vhd Line: 15
-Warning (10492): VHDL Process Statement warning at instructionMemory.vhd(22): signal "memoria" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/instructionMemory.vhd Line: 22
-Info (12128): Elaborating entity "muxData" for hierarchy "muxData:muxpc" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 52
-Info (12128): Elaborating entity "RegIFID" for hierarchy "RegIFID:RIFIF" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 53
-Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:ContUnit" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 54
-Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(15): inferring latch(es) for signal or variable "RegDst", which holds its previous value in one or more paths through the process File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 15
-Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(15): inferring latch(es) for signal or variable "Memread", which holds its previous value in one or more paths through the process File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 15
-Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(15): inferring latch(es) for signal or variable "Memtoreg", which holds its previous value in one or more paths through the process File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 15
-Info (10041): Inferred latch for "Memtoreg" at ControlUnit.vhd(15) File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 15
-Info (10041): Inferred latch for "Memread" at ControlUnit.vhd(15) File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 15
-Info (10041): Inferred latch for "RegDst" at ControlUnit.vhd(15) File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/ControlUnit.vhd Line: 15
-Info (12128): Elaborating entity "RegIDEX" for hierarchy "RegIDEX:RIDEX" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 55
+Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:pcounter" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 68
+Info (12128): Elaborating entity "Adder" for hierarchy "Adder:adderParaPC" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 69
+Info (12128): Elaborating entity "bancoRegistradores" for hierarchy "bancoRegistradores:regBd" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 71
+Info (12128): Elaborating entity "regWithTriState" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/bancoRegistradores.vhd Line: 29
+Info (12128): Elaborating entity "registrador" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 30
+Info (12128): Elaborating entity "triStateBuffer" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 31
+Info (12128): Elaborating entity "instructionMemory" for hierarchy "instructionMemory:memoriaInstrucoes" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 72
+Warning (10541): VHDL Signal Declaration warning at instructionMemory.vhd(15): used implicit default value for signal "memoria" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 15
+Warning (10492): VHDL Process Statement warning at instructionMemory.vhd(22): signal "memoria" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 22
+Info (12128): Elaborating entity "muxData" for hierarchy "muxData:muxpc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 73
+Info (12128): Elaborating entity "RegIFID" for hierarchy "RegIFID:RIFIF" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 74
+Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:ContUnit" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 75
+Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(15): inferring latch(es) for signal or variable "RegDst", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 15
+Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(15): inferring latch(es) for signal or variable "Memread", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 15
+Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(15): inferring latch(es) for signal or variable "Memtoreg", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 15
+Info (10041): Inferred latch for "Memtoreg" at ControlUnit.vhd(15) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 15
+Info (10041): Inferred latch for "Memread" at ControlUnit.vhd(15) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 15
+Info (10041): Inferred latch for "RegDst" at ControlUnit.vhd(15) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 15
+Info (12128): Elaborating entity "RegIDEX" for hierarchy "RegIDEX:RIDEX" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 76
+Info (12128): Elaborating entity "signextend" for hierarchy "signextend:SIGNEXT" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 82
+Info (12128): Elaborating entity "muxRegAdd" for hierarchy "muxRegAdd:muxregsrc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 85
+Info (12128): Elaborating entity "Aluctrl" for hierarchy "Aluctrl:ULACONTROL" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 86
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 87
+Warning (10492): VHDL Process Statement warning at ULA.vhd(27): signal "res" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 27
+Warning (10492): VHDL Process Statement warning at ULA.vhd(33): signal "res" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 33
+Info (12128): Elaborating entity "shiftleft" for hierarchy "shiftleft:Sl2" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 88
+Info (12128): Elaborating entity "RegEXMEM" for hierarchy "RegEXMEM:REXMEM" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 90
+Info (12128): Elaborating entity "memData" for hierarchy "memData:DATAMEMORY" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 95
+Warning (10492): VHDL Process Statement warning at memData.vhd(57): signal "memRead" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 57
+Warning (10492): VHDL Process Statement warning at memData.vhd(61): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 61
+Warning (10492): VHDL Process Statement warning at memData.vhd(61): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 61
+Warning (10492): VHDL Process Statement warning at memData.vhd(63): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 63
+Warning (10492): VHDL Process Statement warning at memData.vhd(63): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 63
+Warning (10492): VHDL Process Statement warning at memData.vhd(65): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 65
+Warning (10492): VHDL Process Statement warning at memData.vhd(65): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 65
+Warning (10492): VHDL Process Statement warning at memData.vhd(67): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 67
+Warning (10492): VHDL Process Statement warning at memData.vhd(67): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 67
+Info (12128): Elaborating entity "RegMEMWB" for hierarchy "RegMEMWB:RMEMWB" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 97
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 80 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "Clock" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 9
-    Warning (15610): No output dependent on input pin "readRegister1[0]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 10
-    Warning (15610): No output dependent on input pin "readRegister1[1]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 10
-    Warning (15610): No output dependent on input pin "readRegister1[2]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 10
-    Warning (15610): No output dependent on input pin "readRegister1[3]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 10
-    Warning (15610): No output dependent on input pin "readRegister1[4]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 10
-    Warning (15610): No output dependent on input pin "readRegister2[0]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 11
-    Warning (15610): No output dependent on input pin "readRegister2[1]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 11
-    Warning (15610): No output dependent on input pin "readRegister2[2]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 11
-    Warning (15610): No output dependent on input pin "readRegister2[3]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 11
-    Warning (15610): No output dependent on input pin "readRegister2[4]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 11
-    Warning (15610): No output dependent on input pin "writeRegister[0]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 12
-    Warning (15610): No output dependent on input pin "writeRegister[1]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 12
-    Warning (15610): No output dependent on input pin "writeRegister[2]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 12
-    Warning (15610): No output dependent on input pin "writeRegister[3]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 12
-    Warning (15610): No output dependent on input pin "writeRegister[4]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 12
-    Warning (15610): No output dependent on input pin "writeData[0]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[1]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[2]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[3]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[4]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[5]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[6]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[7]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[8]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[9]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[10]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[11]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[12]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[13]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[14]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[15]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[16]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[17]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[18]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[19]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[20]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[21]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[22]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[23]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[24]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[25]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[26]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[27]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[28]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[29]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[30]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "writeData[31]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 13
-    Warning (15610): No output dependent on input pin "pc_upd[31]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[30]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[29]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[28]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[27]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[26]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[25]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[24]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[23]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[22]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[21]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[20]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[19]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[18]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[17]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[16]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[15]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[14]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[13]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[12]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[11]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[10]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[9]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[8]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[7]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[6]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[5]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[4]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[3]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[2]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[1]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-    Warning (15610): No output dependent on input pin "pc_upd[0]" File: C:/Users/18189084/Downloads/Pipeline-VHDL-feature-implementation/PipelineCPU.vhd Line: 17
-Info (21057): Implemented 80 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 80 input pins
+Warning (21074): Design contains 43 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "Clock" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 9
+    Warning (15610): No output dependent on input pin "readRegister1[0]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 10
+    Warning (15610): No output dependent on input pin "readRegister1[1]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 10
+    Warning (15610): No output dependent on input pin "readRegister1[2]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 10
+    Warning (15610): No output dependent on input pin "readRegister1[3]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 10
+    Warning (15610): No output dependent on input pin "readRegister1[4]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 10
+    Warning (15610): No output dependent on input pin "readRegister2[0]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 11
+    Warning (15610): No output dependent on input pin "readRegister2[1]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 11
+    Warning (15610): No output dependent on input pin "readRegister2[2]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 11
+    Warning (15610): No output dependent on input pin "readRegister2[3]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 11
+    Warning (15610): No output dependent on input pin "readRegister2[4]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 11
+    Warning (15610): No output dependent on input pin "pc_upd[31]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[30]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[29]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[28]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[27]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[26]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[25]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[24]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[23]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[22]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[21]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[20]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[19]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[18]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[17]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[16]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[15]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[14]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[13]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[12]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[11]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[10]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[9]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[8]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[7]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[6]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[5]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[4]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[3]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[2]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[1]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+    Warning (15610): No output dependent on input pin "pc_upd[0]" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 16
+Info (21057): Implemented 43 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 43 input pins
     Info (21059): Implemented 0 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 102 warnings
-    Info: Peak virtual memory: 4842 megabytes
-    Info: Processing ended: Thu Nov 14 16:48:38 2019
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:37
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 61 warnings
+    Info: Peak virtual memory: 4792 megabytes
+    Info: Processing ended: Sat Nov 16 18:09:37 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:34
 
 

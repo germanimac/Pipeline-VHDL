@@ -98,5 +98,90 @@ COMPONENT RegIDEX is
 			output_rd:		out	std_logic_vector(4 DOWNTO 0) := "00000");
 end COMPONENT;
 
+COMPONENT signextend is
+	port	(
+			In1:	in std_logic_vector(0 to 15);
+			Saida:	out std_logic_vector(0 to 31));
+end COMPONENT;
+
+COMPONENT muxRegAdd is
+	port(
+		In1,In2:	in		STD_LOGIC_VECTOR(4 Downto 0);
+		Selector:in		STD_LOGIC;	
+		Saida:	out	STD_LOGIC_VECTOR(4 Downto 0)
+	);
+end COMPONENT;
+
+COMPONENT Aluctrl is
+	port(
+		Func:	in	STD_LOGIC_VECTOR(5 	Downto	0);
+		ALUOP:in	STD_LOGIC_VECTOR(2	Downto	0);
+		ALUCtrlout:	out	STD_LOGIC_VECTOR(5	Downto	0)
+	);
+end COMPONENT;
+
+COMPONENT ULA is 
+	port (reg1: in std_logic_vector(31 downto 0);
+			reg2: in std_logic_vector(31 downto 0);
+			op:	in std_logic_vector(5 downto 0 );
+			ULA_out: out std_logic_vector(31 downto 0);
+			zero: out std_logic);
+end COMPONENT;
+
+COMPONENT shiftleft is
+	port	(a: in  std_logic_vector(31 DOWNTO 0);
+			 b:	out std_logic_vector(31 DOWNTO 0));
+end COMPONENT;
+
+COMPONENT RegEXMEM is
+	port (clock:		in		std_logic;
+			input_WB:		in		std_logic_vector(1 DOWNTO 0);
+			input_ME:		in		std_logic_vector(2 DOWNTO 0);
+			input_pc:		in		std_logic_vector(31 DOWNTO 0);
+			input_zero:		in		std_logic;
+			input_result:	in		std_logic_vector(31 DOWNTO 0);
+			input_wrData:	in		std_logic_vector(31 DOWNTO 0);
+			input_regdst:	in		std_logic_vector(4 DOWNTO 0);
+			
+			output_WB:		out	std_logic_vector(1 DOWNTO 0) := "00";
+			output_ME:		out	std_logic_vector(2 DOWNTO 0) := "000";
+			output_pc:		out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			output_zero:	out	std_logic := '0';
+			output_result:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			output_wrData:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			output_regdst:	out	std_logic_vector(4 DOWNTO 0) := "00000");
+			
+end COMPONENT;
+
+COMPONENT memData is
+
+    port(address: in std_logic_vector(31 DOWNTO 0);
+
+        Clock: in std_logic;
+
+        memWrite: in std_logic;
+
+        writeData: in std_logic_vector(31 DOWNTO 0);
+
+        memRead: in std_logic;
+
+        read_Data: out std_logic_vector(31 DOWNTO 0));
+
+end COMPONENT;
+
+COMPONENT RegMEMWB is
+	port (clock:		in		std_logic;
+			input_WB:		in		std_logic_vector(0 to 1);
+			output_WB:		out	std_logic_vector(0 to 1) := "00";
+			
+			input_rdData:	in		std_logic_vector(31 DOWNTO 0);
+			output_rdData:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			
+			input_addr:		in		std_logic_vector(31 DOWNTO 0);
+			output_addr:	out	std_logic_vector(31 DOWNTO 0) := "00000000000000000000000000000000";
+			
+			input_regdst:	in		std_logic_vector(4 DOWNTO 0);
+			output_regdst:	out	std_logic_vector(4 DOWNTO 0) := "00000");
+end COMPONENT;
 
 END components;
