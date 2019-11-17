@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim
+Ehard_block
+Z1 w1574016743
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8PipelineCPU.vho
+Z9 FPipelineCPU.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1574016745
+!i10b 1
+Z12 !s108 1574016744.000000
+Z13 !s90 -work|work|PipelineCPU.vho|
+Z14 !s107 PipelineCPU.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Epipelinecpu
+Z17 w1574019575
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+R8
+R9
+l0
+L36
+VK6Nj_>CWoHB43ZEfWN7Zd2
+!s100 SgF9Wz3c0?_hT;=H6a7WK0
+R10
+32
+!s110 1574019576
+!i10b 1
+Z20 !s108 1574019576.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 11 pipelinecpu 0 22 K6Nj_>CWoHB43ZEfWN7Zd2
+l431
+L48
+VT[>fE=mTK:>YXS6_oX@8P1
+!s100 =7[Pm21aY[9dBTWLBJB;i1
+R10
+32
+Z21 !s110 1574019577
+!i10b 1
+R20
+R13
+R14
+!i113 1
+R15
+R16
+Epipelinecpu_vhd_vec_tst
+Z22 w1574019572
+R5
+R6
+R0
+Z23 8Waveform.vwf.vht
+Z24 FWaveform.vwf.vht
+l0
+L31
+V;fGS54Ia:1FCj_mOULdo^0
+!s100 2VJ4MliERBgneIaO:cKUO3
+R10
+32
+R21
+!i10b 1
+Z25 !s108 1574019577.000000
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Apipelinecpu_arch
+R5
+R6
+Z28 DEx4 work 23 pipelinecpu_vhd_vec_tst 0 22 ;fGS54Ia:1FCj_mOULdo^0
+l54
+L33
+Vn;F1?GjTBz0k82Tc>XkAV3
+!s100 LiF[ma3k=5OBHPVY?mSiz3
+R10
+32
+R21
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R15
+R16

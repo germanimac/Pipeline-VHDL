@@ -2,7 +2,176 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "Debugdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugdata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGREGWRITE",
+					"strict" : false
+				},
+				{
+					"name" : "Debugaddress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUCTRLDEBUG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				}
+			]
 		}
 	]
 }
