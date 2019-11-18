@@ -140,6 +140,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "Debugaddress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugaddress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugaddress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Debugaddress[4]",
+					"strict" : false
+				},
+				{
 					"name" : "DEBUGFUNC1[0]",
 					"strict" : false
 				},
@@ -152,6 +168,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "DEBUGFUNC1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC1[5]",
+					"strict" : false
+				},
+				{
 					"name" : "DEBUGFUNC2[0]",
 					"strict" : false
 				},
@@ -161,6 +189,26 @@
 				},
 				{
 					"name" : "DEBUGFUNC2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGFUNC2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUCTRLDEBUG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUCTRLDEBUG[1]",
 					"strict" : false
 				},
 				{
