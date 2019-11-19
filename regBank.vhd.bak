@@ -1,0 +1,21 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+USE work.componentsForRegBank.all ;
+
+
+ENTITY PipelineCPU IS 
+
+
+END PipelineCPU ;
+
+
+ARCHITECTURE Behavior OF PipelineCPU  IS
+	
+	
+
+BEGIN
+
+
+
+END Behavior;
+
