@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/17/2019 16:39:32"
+-- Generated on "11/20/2019 14:43:43"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          PipelineCPU
 -- 
@@ -39,6 +39,7 @@ SIGNAL Debugaddress : STD_LOGIC_VECTOR(4 DOWNTO 0);
 SIGNAL Debugdata : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL DEBUGFUNC1 : STD_LOGIC_VECTOR(5 DOWNTO 0);
 SIGNAL DEBUGFUNC2 : STD_LOGIC_VECTOR(5 DOWNTO 0);
+SIGNAL DEBUgPC : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL DEBUGREGWRITE : STD_LOGIC;
 COMPONENT PipelineCPU
 	PORT (
@@ -48,6 +49,7 @@ COMPONENT PipelineCPU
 	Debugdata : BUFFER STD_LOGIC_VECTOR(31 DOWNTO 0);
 	DEBUGFUNC1 : BUFFER STD_LOGIC_VECTOR(5 DOWNTO 0);
 	DEBUGFUNC2 : BUFFER STD_LOGIC_VECTOR(5 DOWNTO 0);
+	DEBUgPC : BUFFER STD_LOGIC_VECTOR(31 DOWNTO 0);
 	DEBUGREGWRITE : BUFFER STD_LOGIC
 	);
 END COMPONENT;
@@ -61,6 +63,7 @@ BEGIN
 	Debugdata => Debugdata,
 	DEBUGFUNC1 => DEBUGFUNC1,
 	DEBUGFUNC2 => DEBUGFUNC2,
+	DEBUgPC => DEBUgPC,
 	DEBUGREGWRITE => DEBUGREGWRITE
 	);
 

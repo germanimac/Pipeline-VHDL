@@ -204,6 +204,134 @@
 					"strict" : false
 				},
 				{
+					"name" : "DEBUgPC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[21]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[25]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[26]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[27]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[28]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[29]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[30]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[31]",
+					"strict" : false
+				},
+				{
 					"name" : "ALUCTRLDEBUG[0]",
 					"strict" : false
 				},

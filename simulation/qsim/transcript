@@ -1,7 +1,7 @@
 # do PipelineCPU.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:33:14 on Nov 18,2019
+# Start time: 14:43:47 on Nov 20,2019
 # vcom -work work PipelineCPU.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -14,20 +14,20 @@
 # -- Loading package cycloneive_components
 # -- Compiling entity PipelineCPU
 # -- Compiling architecture structure of PipelineCPU
-# End time: 15:33:15 on Nov 18,2019, Elapsed time: 0:00:01
+# End time: 14:43:49 on Nov 20,2019, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:33:15 on Nov 18,2019
-# vcom -work work Waveform1.vwf.vht 
+# Start time: 14:43:49 on Nov 20,2019
+# vcom -work work Waveform.vwf.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PipelineCPU_vhd_vec_tst
 # -- Compiling architecture PipelineCPU_arch of PipelineCPU_vhd_vec_tst
-# End time: 15:33:15 on Nov 18,2019, Elapsed time: 0:00:00
+# End time: 14:43:50 on Nov 20,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.PipelineCPU_vhd_vec_tst 
-# Start time: 15:33:15 on Nov 18,2019
+# Start time: 14:43:50 on Nov 20,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -44,10 +44,16 @@
 # Loading cycloneive.cycloneive_io_ibuf(arch)
 # Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
 # Loading altera.dffeas(vital_dffeas)
-# ** Warning: Design size of 571691 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# ** Warning: Design size of 862019 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # after#33
-# Simulation time: 50000 ps
-# Simulation time: 50000 ps
-# End time: 15:33:23 on Nov 18,2019, Elapsed time: 0:00:08
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# End time: 14:44:14 on Nov 20,2019, Elapsed time: 0:00:24
 # Errors: 0, Warnings: 1

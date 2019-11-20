@@ -11,6 +11,7 @@ ENTITY PipelineCPU IS
 		DEBUGREGWRITE:OUT STD_LOGIC;
 		Debugaddress:	out STD_LOGIC_VECTOR(4 DOWNTO 0);
 		DEBUGFUNC1,DEBUGFUNC2:	out STD_LOGIC_VECTOR(5 DOWNTO 0);
+		DEBUgPC:	out STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALUCTRLDEBUG:	out STD_LOGIC_VECTOR(2 DOWNTO 0)
 	);
 
@@ -21,8 +22,10 @@ ARCHITECTURE Behavior OF PipelineCPU  IS
 		SiGNAL writeRegister					: STD_LOGIC_VECTOR(4 DOWNTO 0 ); -- data out para saida do 2
 		SIGNAL writeData						: STD_LOGIC_VECTOR(31 DOWNTO 0 );
 		SIGNAL pc,pcid: std_logic_vector(31 DOwnto 0) ;
+		SIGNAL PCJSRC:	STD_LOGIC_VECTOR(1 DOWNTO 0);
+		SIGNAL JADDcALaux,Jaddcal:STD_LOGIC_VECTOR(31 DOWNTO 0);
 		sIgnAL  endereco: std_logic_vector(0 to 31);
-		SIGNAL NEXTPC:	std_logic_vector(31 DOwnto 0);
+		SIGNAL NEXTPCaux,NEXTPC:	std_logic_vector(31 DOwnto 0);
 		SIGNAL branchadd: std_logic_vector(31 downto 0);
 		SIGNAL PCSRC:	STD_LOGIC;
 		SIGNAL instrucao,instrucaoid: std_logic_vector(31 Downto 0);
@@ -62,14 +65,18 @@ ARCHITECTURE Behavior OF PipelineCPU  IS
 		SIGNAL READMEMORYWB,ALURESULTWB:	STD_LOGIC_VECTOR(31 DOWNTO 0);
 		SIGNAL MEMTOREGWB:	STD_LOGIC;
 BEGIN
+	DEBUGPC<=pc;
 	pcounter : ProgramCounter PORT MAP (Clock, NEXTPC, pc);
 	adderParaPC: Adder PORT MAP (pc , "00000000000000000000000000000100" , endereco);
 	
 	regBd: bancoRegistradores PORT MAP (Clock ,instrucaoid(25 downto 21), regWritefinal, instrucaoid(20 downto 16), writeregister, writeData, readData1, readData2);
 	memoriaInstrucoes: instructionMemory PORT MAP(pc, instrucao);
-	muxpc:	muxData PORT MAP(endereco,branchadd,PCSRC,NEXTPC);
+	muxpc:	muxData PORT MAP(endereco,branchadd,PCSRC,NEXTPCaux);
+	jcalc:	shiftleft PORT MAP("000000"&instrucaoid(25 DOWNTO 0),JADDCALaux);
+	ADDERJUMP:	ADDER PORT MAP(pcid(31 DOWNTO 28)&"0000000000000000000000000000",JADDCALaux,JADDCAl);
+	muxjump:	muxTri PORT MAP(NEXTPCaux,readData1,JADDCAl,PCJSRC,NEXTPC);
 	RIFIF:	REGIFID PORT MAP(Clock,endereco,pcid,instrucao,instrucaoid);
-	ContUnit:	ControlUnit PORT MAP(instrucaoid(31 downto 26),Regwrite,RegDst,AluSrc,Memwrite,Memread,Branch,Memtoreg,ALUOP);
+	ContUnit:	ControlUnit PORT MAP(instrucaoid(31 downto 26),Regwrite,RegDst,AluSrc,Memwrite,Memread,Branch,Memtoreg,PCJSRC,ALUOP);
 	RIDEX:	RegIDEX PORT MAP(clock,Memtoreg & Regwrite,Branch & Memwrite & Memread,RegDst & ALUOP & AluSrc,EXWB,EXM,EXEX,pcid,PCEX,readData1,REGA,readData2,REGB,IMEDid,IMEDEX,instrucaoid(20 downto 16),rtex,instrucaoid(15 Downto 11),rdex);
 	REGDSTEX <= EXEX(0);
 	ALUSRCEX	<=	EXEX(4);

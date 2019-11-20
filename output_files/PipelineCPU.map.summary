@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Mon Nov 18 15:32:58 2019
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Wed Nov 20 14:43:05 2019
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : PipelineCPU
 Top-level Entity Name : PipelineCPU
 Family : Cyclone IV E
-Total logic elements : 3,770
-    Total combinational functions : 3,458
-    Dedicated logic registers : 1,323
-Total registers : 1323
-Total pins : 54
+Total logic elements : 6,011
+    Total combinational functions : 4,887
+    Dedicated logic registers : 2,231
+Total registers : 2231
+Total pins : 86
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

@@ -56,7 +56,7 @@ R14
 R15
 R16
 Epipelinecpu
-Z17 w1574101992
+Z17 w1574271826
 R3
 R7
 R2
@@ -65,18 +65,18 @@ R4
 R5
 R6
 Z19 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
-Z20 dC:/Users/18189084.LAB-INF/Documents/GitHub/Pipeline-VHDL/simulation/qsim
+R0
 R8
 R9
 l0
 L36
-VK6Nj_>CWoHB43ZEfWN7Zd2
-!s100 SgF9Wz3c0?_hT;=H6a7WK0
+VFKPD5iULZU7`RW2T1ZSI80
+!s100 4NLnUOe0413X?Ci?K68ei1
 R10
 32
-Z21 !s110 1574101994
+Z20 !s110 1574271828
 !i10b 1
-Z22 !s108 1574101994.000000
+Z21 !s108 1574271827.000000
 R13
 R14
 !i113 1
@@ -91,57 +91,57 @@ R4
 R5
 R6
 R19
-DEx4 work 11 pipelinecpu 0 22 K6Nj_>CWoHB43ZEfWN7Zd2
-l4462
-L48
-V3U_^OikePzzgdW>WfRzaS3
-!s100 ^i^BcF7@6BJMDFX0Okz7H1
+DEx4 work 11 pipelinecpu 0 22 FKPD5iULZU7`RW2T1ZSI80
+l5995
+L49
+VW^8MEXXNPBD]O:Ud8V@m;0
+!s100 aTGgZ6cj8_:D?6`FhBlCW2
 R10
 32
-R21
+R20
 !i10b 1
-R22
+R21
 R13
 R14
 !i113 1
 R15
 R16
 Epipelinecpu_vhd_vec_tst
-Z23 w1574101990
+Z22 w1574271823
 R5
 R6
-R20
-Z24 8Waveform1.vwf.vht
-Z25 FWaveform1.vwf.vht
+R0
+Z23 8Waveform.vwf.vht
+Z24 FWaveform.vwf.vht
 l0
 L31
 V;fGS54Ia:1FCj_mOULdo^0
 !s100 2VJ4MliERBgneIaO:cKUO3
 R10
 32
-Z26 !s110 1574101995
+Z25 !s110 1574271830
 !i10b 1
-Z27 !s108 1574101995.000000
-Z28 !s90 -work|work|Waveform1.vwf.vht|
-Z29 !s107 Waveform1.vwf.vht|
+Z26 !s108 1574271829.000000
+Z27 !s90 -work|work|Waveform.vwf.vht|
+Z28 !s107 Waveform.vwf.vht|
 !i113 1
 R15
 R16
 Apipelinecpu_arch
 R5
 R6
-Z30 DEx4 work 23 pipelinecpu_vhd_vec_tst 0 22 ;fGS54Ia:1FCj_mOULdo^0
-l54
+Z29 DEx4 work 23 pipelinecpu_vhd_vec_tst 0 22 ;fGS54Ia:1FCj_mOULdo^0
+l56
 L33
-Z31 Vn;F1?GjTBz0k82Tc>XkAV3
-Z32 !s100 LiF[ma3k=5OBHPVY?mSiz3
+Z30 V9UI=THXA;oFV;3aB`4NzS3
+Z31 !s100 Mlc>caiLGOk8]ngP[=0KA1
 R10
 32
-R26
+R25
 !i10b 1
+R26
 R27
 R28
-R29
 !i113 1
 R15
 R16
