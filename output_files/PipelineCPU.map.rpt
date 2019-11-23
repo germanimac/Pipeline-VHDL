@@ -1,5 +1,5 @@
 Analysis & Synthesis report for PipelineCPU
-Wed Nov 20 14:43:05 2019
+Sat Nov 23 14:24:41 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -15,146 +15,145 @@ Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. User-Specified and Inferred Latches
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: Top-level Entity: |PipelineCPU
- 14. Parameter Settings for User Entity Instance: bancoRegistradores:regBd
- 15. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0
- 16. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg
- 17. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1
- 18. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri2
- 19. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1
- 20. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1|registrador:reg
- 21. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1|triStateBuffer:tri1
- 22. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1|triStateBuffer:tri2
- 23. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2
- 24. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2|registrador:reg
- 25. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2|triStateBuffer:tri1
- 26. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2|triStateBuffer:tri2
- 27. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3
- 28. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3|registrador:reg
- 29. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3|triStateBuffer:tri1
- 30. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3|triStateBuffer:tri2
- 31. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4
- 32. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4|registrador:reg
- 33. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4|triStateBuffer:tri1
- 34. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4|triStateBuffer:tri2
- 35. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5
- 36. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5|registrador:reg
- 37. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5|triStateBuffer:tri1
- 38. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5|triStateBuffer:tri2
- 39. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6
- 40. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6|registrador:reg
- 41. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6|triStateBuffer:tri1
- 42. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6|triStateBuffer:tri2
- 43. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7
- 44. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7|registrador:reg
- 45. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7|triStateBuffer:tri1
- 46. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7|triStateBuffer:tri2
- 47. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8
- 48. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8|registrador:reg
- 49. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8|triStateBuffer:tri1
- 50. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8|triStateBuffer:tri2
- 51. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9
- 52. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9|registrador:reg
- 53. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9|triStateBuffer:tri1
- 54. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9|triStateBuffer:tri2
- 55. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10
- 56. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10|registrador:reg
- 57. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10|triStateBuffer:tri1
- 58. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10|triStateBuffer:tri2
- 59. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11
- 60. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11|registrador:reg
- 61. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11|triStateBuffer:tri1
- 62. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11|triStateBuffer:tri2
- 63. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12
- 64. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12|registrador:reg
- 65. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12|triStateBuffer:tri1
- 66. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12|triStateBuffer:tri2
- 67. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13
- 68. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13|registrador:reg
- 69. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13|triStateBuffer:tri1
- 70. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13|triStateBuffer:tri2
- 71. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14
- 72. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14|registrador:reg
- 73. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14|triStateBuffer:tri1
- 74. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14|triStateBuffer:tri2
- 75. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15
- 76. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15|registrador:reg
- 77. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15|triStateBuffer:tri1
- 78. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15|triStateBuffer:tri2
- 79. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16
- 80. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16|registrador:reg
- 81. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16|triStateBuffer:tri1
- 82. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16|triStateBuffer:tri2
- 83. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17
- 84. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17|registrador:reg
- 85. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17|triStateBuffer:tri1
- 86. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17|triStateBuffer:tri2
- 87. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18
- 88. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18|registrador:reg
- 89. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18|triStateBuffer:tri1
- 90. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18|triStateBuffer:tri2
- 91. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19
- 92. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19|registrador:reg
- 93. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19|triStateBuffer:tri1
- 94. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19|triStateBuffer:tri2
- 95. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20
- 96. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20|registrador:reg
- 97. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20|triStateBuffer:tri1
- 98. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20|triStateBuffer:tri2
- 99. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21
-100. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21|registrador:reg
-101. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21|triStateBuffer:tri1
-102. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21|triStateBuffer:tri2
-103. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22
-104. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22|registrador:reg
-105. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22|triStateBuffer:tri1
-106. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22|triStateBuffer:tri2
-107. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23
-108. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23|registrador:reg
-109. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23|triStateBuffer:tri1
-110. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23|triStateBuffer:tri2
-111. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24
-112. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24|registrador:reg
-113. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24|triStateBuffer:tri1
-114. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24|triStateBuffer:tri2
-115. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25
-116. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25|registrador:reg
-117. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25|triStateBuffer:tri1
-118. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25|triStateBuffer:tri2
-119. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26
-120. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26|registrador:reg
-121. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26|triStateBuffer:tri1
-122. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26|triStateBuffer:tri2
-123. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27
-124. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27|registrador:reg
-125. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27|triStateBuffer:tri1
-126. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27|triStateBuffer:tri2
-127. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28
-128. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28|registrador:reg
-129. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28|triStateBuffer:tri1
-130. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28|triStateBuffer:tri2
-131. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29
-132. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29|registrador:reg
-133. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29|triStateBuffer:tri1
-134. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29|triStateBuffer:tri2
-135. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30
-136. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30|registrador:reg
-137. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30|triStateBuffer:tri1
-138. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30|triStateBuffer:tri2
-139. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31
-140. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|registrador:reg
-141. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri1
-142. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri2
-143. Parameter Settings for User Entity Instance: muxTri:muxjump
-144. Port Connectivity Checks: "Adder:ADDERJUMP"
-145. Port Connectivity Checks: "shiftleft:jcalc"
-146. Port Connectivity Checks: "Adder:adderParaPC"
-147. Post-Synthesis Netlist Statistics for Top Partition
-148. Elapsed Time Per Partition
-149. Analysis & Synthesis Messages
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |PipelineCPU
+ 13. Parameter Settings for User Entity Instance: bancoRegistradores:regBd
+ 14. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0
+ 15. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg
+ 16. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1
+ 17. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri2
+ 18. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1
+ 19. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1|registrador:reg
+ 20. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1|triStateBuffer:tri1
+ 21. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg1|triStateBuffer:tri2
+ 22. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2
+ 23. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2|registrador:reg
+ 24. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2|triStateBuffer:tri1
+ 25. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg2|triStateBuffer:tri2
+ 26. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3
+ 27. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3|registrador:reg
+ 28. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3|triStateBuffer:tri1
+ 29. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg3|triStateBuffer:tri2
+ 30. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4
+ 31. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4|registrador:reg
+ 32. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4|triStateBuffer:tri1
+ 33. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg4|triStateBuffer:tri2
+ 34. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5
+ 35. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5|registrador:reg
+ 36. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5|triStateBuffer:tri1
+ 37. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg5|triStateBuffer:tri2
+ 38. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6
+ 39. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6|registrador:reg
+ 40. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6|triStateBuffer:tri1
+ 41. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg6|triStateBuffer:tri2
+ 42. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7
+ 43. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7|registrador:reg
+ 44. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7|triStateBuffer:tri1
+ 45. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg7|triStateBuffer:tri2
+ 46. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8
+ 47. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8|registrador:reg
+ 48. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8|triStateBuffer:tri1
+ 49. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg8|triStateBuffer:tri2
+ 50. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9
+ 51. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9|registrador:reg
+ 52. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9|triStateBuffer:tri1
+ 53. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg9|triStateBuffer:tri2
+ 54. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10
+ 55. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10|registrador:reg
+ 56. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10|triStateBuffer:tri1
+ 57. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg10|triStateBuffer:tri2
+ 58. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11
+ 59. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11|registrador:reg
+ 60. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11|triStateBuffer:tri1
+ 61. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg11|triStateBuffer:tri2
+ 62. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12
+ 63. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12|registrador:reg
+ 64. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12|triStateBuffer:tri1
+ 65. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg12|triStateBuffer:tri2
+ 66. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13
+ 67. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13|registrador:reg
+ 68. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13|triStateBuffer:tri1
+ 69. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg13|triStateBuffer:tri2
+ 70. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14
+ 71. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14|registrador:reg
+ 72. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14|triStateBuffer:tri1
+ 73. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg14|triStateBuffer:tri2
+ 74. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15
+ 75. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15|registrador:reg
+ 76. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15|triStateBuffer:tri1
+ 77. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg15|triStateBuffer:tri2
+ 78. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16
+ 79. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16|registrador:reg
+ 80. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16|triStateBuffer:tri1
+ 81. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg16|triStateBuffer:tri2
+ 82. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17
+ 83. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17|registrador:reg
+ 84. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17|triStateBuffer:tri1
+ 85. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg17|triStateBuffer:tri2
+ 86. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18
+ 87. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18|registrador:reg
+ 88. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18|triStateBuffer:tri1
+ 89. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg18|triStateBuffer:tri2
+ 90. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19
+ 91. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19|registrador:reg
+ 92. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19|triStateBuffer:tri1
+ 93. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg19|triStateBuffer:tri2
+ 94. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20
+ 95. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20|registrador:reg
+ 96. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20|triStateBuffer:tri1
+ 97. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg20|triStateBuffer:tri2
+ 98. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21
+ 99. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21|registrador:reg
+100. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21|triStateBuffer:tri1
+101. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg21|triStateBuffer:tri2
+102. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22
+103. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22|registrador:reg
+104. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22|triStateBuffer:tri1
+105. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg22|triStateBuffer:tri2
+106. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23
+107. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23|registrador:reg
+108. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23|triStateBuffer:tri1
+109. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg23|triStateBuffer:tri2
+110. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24
+111. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24|registrador:reg
+112. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24|triStateBuffer:tri1
+113. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg24|triStateBuffer:tri2
+114. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25
+115. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25|registrador:reg
+116. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25|triStateBuffer:tri1
+117. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg25|triStateBuffer:tri2
+118. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26
+119. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26|registrador:reg
+120. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26|triStateBuffer:tri1
+121. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg26|triStateBuffer:tri2
+122. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27
+123. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27|registrador:reg
+124. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27|triStateBuffer:tri1
+125. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg27|triStateBuffer:tri2
+126. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28
+127. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28|registrador:reg
+128. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28|triStateBuffer:tri1
+129. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg28|triStateBuffer:tri2
+130. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29
+131. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29|registrador:reg
+132. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29|triStateBuffer:tri1
+133. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg29|triStateBuffer:tri2
+134. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30
+135. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30|registrador:reg
+136. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30|triStateBuffer:tri1
+137. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg30|triStateBuffer:tri2
+138. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31
+139. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|registrador:reg
+140. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri1
+141. Parameter Settings for User Entity Instance: bancoRegistradores:regBd|regWithTriState:reg31|triStateBuffer:tri2
+142. Parameter Settings for User Entity Instance: muxTri:muxjump
+143. Port Connectivity Checks: "Adder:ADDERJUMP"
+144. Port Connectivity Checks: "shiftleft:jcalc"
+145. Port Connectivity Checks: "Adder:adderParaPC"
+146. Post-Synthesis Netlist Statistics for Top Partition
+147. Elapsed Time Per Partition
+148. Analysis & Synthesis Messages
 
 
 
@@ -180,16 +179,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 20 14:43:05 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov 23 14:24:41 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; PipelineCPU                                 ;
 ; Top-level Entity Name              ; PipelineCPU                                 ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 6,011                                       ;
-;     Total combinational functions  ; 4,887                                       ;
-;     Dedicated logic registers      ; 2,231                                       ;
-; Total registers                    ; 2231                                        ;
-; Total pins                         ; 86                                          ;
+; Total logic elements               ; 6,040                                       ;
+;     Total combinational functions  ; 4,915                                       ;
+;     Dedicated logic registers      ; 2,233                                       ;
+; Total registers                    ; 2233                                        ;
+; Total pins                         ; 184                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -338,30 +337,30 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 6,011       ;
+; Estimated Total logic elements              ; 6,040       ;
 ;                                             ;             ;
-; Total combinational functions               ; 4887        ;
+; Total combinational functions               ; 4915        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 4268        ;
-;     -- 3 input functions                    ; 559         ;
-;     -- <=2 input functions                  ; 60          ;
+;     -- 4 input functions                    ; 4293        ;
+;     -- 3 input functions                    ; 552         ;
+;     -- <=2 input functions                  ; 70          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 4797        ;
+;     -- normal mode                          ; 4825        ;
 ;     -- arithmetic mode                      ; 90          ;
 ;                                             ;             ;
-; Total registers                             ; 2231        ;
-;     -- Dedicated logic registers            ; 2231        ;
+; Total registers                             ; 2233        ;
+;     -- Dedicated logic registers            ; 2233        ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 86          ;
+; I/O pins                                    ; 184         ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; Clock~input ;
-; Maximum fan-out                             ; 2231        ;
-; Total fan-out                               ; 25367       ;
-; Average fan-out                             ; 3.48        ;
+; Maximum fan-out                             ; 2233        ;
+; Total fan-out                               ; 25666       ;
+; Average fan-out                             ; 3.41        ;
 +---------------------------------------------+-------------+
 
 
@@ -370,13 +369,13 @@ refer to the applicable agreement for further details.
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------------+--------------+
 ; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                         ; Entity Name        ; Library Name ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------------+--------------+
-; |PipelineCPU                             ; 4887 (0)            ; 2231 (0)                  ; 0           ; 0            ; 0       ; 0         ; 86   ; 0            ; |PipelineCPU                                                                ; PipelineCPU        ; work         ;
+; |PipelineCPU                             ; 4915 (0)            ; 2233 (0)                  ; 0           ; 0            ; 0       ; 0         ; 184  ; 0            ; |PipelineCPU                                                                ; PipelineCPU        ; work         ;
 ;    |Adder:adderParaPC|                   ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|Adder:adderParaPC                                              ; Adder              ; work         ;
 ;    |Aluctrl:ULACONTROL|                  ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|Aluctrl:ULACONTROL                                             ; Aluctrl            ; work         ;
-;    |ControlUnit:ContUnit|                ; 19 (19)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ControlUnit:ContUnit                                           ; ControlUnit        ; work         ;
+;    |ControlUnit:ContUnit|                ; 20 (20)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ControlUnit:ContUnit                                           ; ControlUnit        ; work         ;
 ;    |ProgramCounter:pcounter|             ; 2 (2)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ProgramCounter:pcounter                                        ; ProgramCounter     ; work         ;
-;    |RegEXMEM:REXMEM|                     ; 30 (30)             ; 106 (106)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegEXMEM:REXMEM                                                ; RegEXMEM           ; work         ;
-;    |RegIDEX:RIDEX|                       ; 0 (0)               ; 126 (126)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegIDEX:RIDEX                                                  ; RegIDEX            ; work         ;
+;    |RegEXMEM:REXMEM|                     ; 30 (30)             ; 107 (107)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegEXMEM:REXMEM                                                ; RegEXMEM           ; work         ;
+;    |RegIDEX:RIDEX|                       ; 0 (0)               ; 127 (127)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegIDEX:RIDEX                                                  ; RegIDEX            ; work         ;
 ;    |RegIFID:RIFIF|                       ; 0 (0)               ; 64 (64)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegIFID:RIFIF                                                  ; RegIFID            ; work         ;
 ;    |RegMEMWB:RMEMWB|                     ; 31 (31)             ; 71 (71)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegMEMWB:RMEMWB                                                ; RegMEMWB           ; work         ;
 ;    |ULA:ALU|                             ; 160 (160)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ULA:ALU                                                        ; ULA                ; work         ;
@@ -445,12 +444,12 @@ refer to the applicable agreement for further details.
 ;          |registrador:reg|               ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg8|registrador:reg  ; registrador        ; work         ;
 ;       |regWithTriState:reg9|             ; 0 (0)               ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9                  ; regWithTriState    ; work         ;
 ;          |registrador:reg|               ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9|registrador:reg  ; registrador        ; work         ;
-;    |instructionMemory:memoriaInstrucoes| ; 142 (142)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|instructionMemory:memoriaInstrucoes                            ; instructionMemory  ; work         ;
-;    |memData:DATAMEMORY|                  ; 2916 (2916)         ; 808 (808)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|memData:DATAMEMORY                                             ; memData            ; work         ;
+;    |instructionMemory:memoriaInstrucoes| ; 169 (169)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|instructionMemory:memoriaInstrucoes                            ; instructionMemory  ; work         ;
+;    |memData:DATAMEMORY|                  ; 2915 (2915)         ; 808 (808)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|memData:DATAMEMORY                                             ; memData            ; work         ;
 ;    |muxData:MUXALU|                      ; 27 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxData:MUXALU                                                 ; muxData            ; work         ;
 ;    |muxData:MUXWB|                       ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxData:MUXWB                                                  ; muxData            ; work         ;
 ;    |muxRegAdd:muxregsrc|                 ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxRegAdd:muxregsrc                                            ; muxRegAdd          ; work         ;
-;    |muxTri:muxjump|                      ; 94 (94)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxTri:muxjump                                                 ; muxTri             ; work         ;
+;    |muxTri:muxjump|                      ; 95 (95)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxTri:muxjump                                                 ; muxTri             ; work         ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -460,9 +459,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------+----------------------------+------------------------+
 ; Latch Name                                         ; Latch Enable Signal        ; Free of Timing Hazards ;
 +----------------------------------------------------+----------------------------+------------------------+
+; ControlUnit:ContUnit|Memread                       ; ControlUnit:ContUnit|Mux6  ; yes                    ;
 ; ControlUnit:ContUnit|Memtoreg                      ; ControlUnit:ContUnit|Mux13 ; yes                    ;
 ; ControlUnit:ContUnit|RegDst                        ; ControlUnit:ContUnit|Mux13 ; yes                    ;
-; Number of user-specified and inferred latches = 2  ;                            ;                        ;
+; Number of user-specified and inferred latches = 3  ;                            ;                        ;
 +----------------------------------------------------+----------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -472,24 +472,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------+----------------------------------------+
 ; Register name                          ; Reason for Removal                     ;
 +----------------------------------------+----------------------------------------+
-; RegEXMEM:REXMEM|output_ME[2]           ; Lost fanout                            ;
-; RegIDEX:RIDEX|output_instruction_M[2]  ; Lost fanout                            ;
 ; RegIDEX:RIDEX|output_imed[11]          ; Merged with RegIDEX:RIDEX|output_rd[0] ;
 ; RegIDEX:RIDEX|output_imed[12]          ; Merged with RegIDEX:RIDEX|output_rd[1] ;
 ; RegIDEX:RIDEX|output_imed[13]          ; Merged with RegIDEX:RIDEX|output_rd[2] ;
 ; RegIDEX:RIDEX|output_imed[14]          ; Merged with RegIDEX:RIDEX|output_rd[3] ;
 ; RegIDEX:RIDEX|output_imed[15..31]      ; Merged with RegIDEX:RIDEX|output_rd[4] ;
-; Total Number of Removed Registers = 23 ;                                        ;
+; Total Number of Removed Registers = 21 ;                                        ;
 +----------------------------------------+----------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                ;
-+------------------------------+--------------------+----------------------------------------+
-; Register name                ; Reason for Removal ; Registers Removed due to This Register ;
-+------------------------------+--------------------+----------------------------------------+
-; RegEXMEM:REXMEM|output_ME[2] ; Lost Fanouts       ; RegIDEX:RIDEX|output_instruction_M[2]  ;
-+------------------------------+--------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -497,7 +486,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2231  ;
+; Total registers                              ; 2233  ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 16    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -513,125 +502,125 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |PipelineCPU|ProgramCounter:pcounter|pc[1]         ;
-; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; Yes        ; |PipelineCPU|ProgramCounter:pcounter|pc[25]        ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[100][1]     ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[99][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[98][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[97][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[96][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[95][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[94][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[93][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[92][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[91][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[90][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[89][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[88][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[87][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[86][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[85][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[84][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[83][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[82][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[81][4]      ;
+; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; Yes        ; |PipelineCPU|ProgramCounter:pcounter|pc[13]        ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[100][3]     ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[99][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[98][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[97][2]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[96][2]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[95][2]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[94][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[93][2]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[92][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[91][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[90][0]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[89][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[88][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[87][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[86][0]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[85][0]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[84][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[83][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[82][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[81][1]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[80][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[79][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[78][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[77][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[76][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[75][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[74][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[73][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[72][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[71][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[79][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[78][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[77][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[76][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[75][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[74][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[73][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[72][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[71][6]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[70][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[69][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[68][6]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[67][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[66][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[65][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[64][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[63][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[69][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[68][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[67][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[66][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[65][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[64][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[63][3]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[62][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[61][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[61][3]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[60][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[59][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[58][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[59][0]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[58][3]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[57][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[56][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[55][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[54][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[53][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[52][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[56][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[55][2]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[54][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[53][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[52][1]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[51][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[50][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[49][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[50][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[49][3]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[48][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[47][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[46][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[45][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[47][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[46][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[45][7]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[44][1]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[43][1]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[42][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[41][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[40][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[39][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[42][0]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[41][1]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[40][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[39][1]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[38][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[37][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[37][1]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[36][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[35][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[35][6]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[34][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[33][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[32][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[31][0]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[30][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[29][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[28][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[27][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[26][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[25][4]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[24][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[23][2]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[22][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[21][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[33][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[32][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[31][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[30][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[29][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[28][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[27][5]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[26][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[25][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[24][7]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[23][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[22][2]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[21][3]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[20][6]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[19][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[18][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[19][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[18][6]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[17][6]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[16][7]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[15][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[14][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[13][5]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[12][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[11][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[16][3]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[15][6]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[14][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[13][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[12][4]      ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[11][7]      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[10][3]      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[9][3]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[9][5]       ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[8][1]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[7][3]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[6][1]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[5][3]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[7][0]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[6][7]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[5][1]       ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[4][7]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[3][3]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[2][5]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[1][2]       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[0][2]       ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |PipelineCPU|RegIDEX:RIDEX|output_read2[9]         ;
-; 11:1               ; 8 bits    ; 56 LEs        ; 56 LEs               ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[18]     ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[3][4]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[2][1]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[1][5]       ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |PipelineCPU|memData:DATAMEMORY|memory[0][6]       ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |PipelineCPU|RegIDEX:RIDEX|output_read2[31]        ;
+; 11:1               ; 8 bits    ; 56 LEs        ; 56 LEs               ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[17]     ;
 ; 11:1               ; 8 bits    ; 56 LEs        ; 56 LEs               ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[9]      ;
-; 22:1               ; 8 bits    ; 112 LEs       ; 112 LEs              ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[26]     ;
-; 22:1               ; 8 bits    ; 112 LEs       ; 112 LEs              ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[2]      ;
+; 22:1               ; 8 bits    ; 112 LEs       ; 112 LEs              ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[24]     ;
+; 22:1               ; 8 bits    ; 112 LEs       ; 112 LEs              ; 0 LEs                  ; Yes        ; |PipelineCPU|RegMEMWB:RMEMWB|output_rdData[5]      ;
 ; 8:1                ; 3 bits    ; 15 LEs        ; 12 LEs               ; 3 LEs                  ; No         ; |PipelineCPU|Aluctrl:ULACONTROL|Mux3               ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux29              ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux30              ;
-; 4:1                ; 72 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux24              ;
-; 64:1               ; 32 bits   ; 1344 LEs      ; 128 LEs              ; 1216 LEs               ; No         ; |PipelineCPU|ULA:ALU|Mux25                         ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux30              ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux26              ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux27              ;
-; 9:1                ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux31              ;
-; 9:1                ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux31              ;
-; 16:1               ; 8 bits    ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux25              ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |PipelineCPU|bancoRegistradores:regBd|readData1[9] ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux25              ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux31              ;
+; 4:1                ; 72 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux27              ;
+; 64:1               ; 32 bits   ; 1344 LEs      ; 128 LEs              ; 1216 LEs               ; No         ; |PipelineCPU|ULA:ALU|Mux2                          ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux31              ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux31              ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux29              ;
+; 9:1                ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux24              ;
+; 9:1                ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux29              ;
+; 16:1               ; 8 bits    ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |PipelineCPU|memData:DATAMEMORY|Mux29              ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |PipelineCPU|bancoRegistradores:regBd|readData1[3] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
 
 
@@ -1981,22 +1970,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 86                          ;
-; cycloneiii_ff         ; 2231                        ;
+; boundary_port         ; 184                         ;
+; cycloneiii_ff         ; 2233                        ;
 ;     ENA               ; 1834                        ;
 ;     SLD               ; 16                          ;
-;     plain             ; 381                         ;
-; cycloneiii_lcell_comb ; 4888                        ;
+;     plain             ; 383                         ;
+; cycloneiii_lcell_comb ; 4916                        ;
 ;     arith             ; 90                          ;
 ;         2 data inputs ; 30                          ;
 ;         3 data inputs ; 60                          ;
-;     normal            ; 4798                        ;
+;     normal            ; 4826                        ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 29                          ;
-;         3 data inputs ; 499                         ;
-;         4 data inputs ; 4268                        ;
+;         2 data inputs ; 39                          ;
+;         3 data inputs ; 492                         ;
+;         4 data inputs ; 4293                        ;
 ;                       ;                             ;
-; Max LUT depth         ; 11.10                       ;
+; Max LUT depth         ; 11.60                       ;
 ; Average LUT depth     ; 5.55                        ;
 +-----------------------+-----------------------------+
 
@@ -2006,7 +1995,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:15     ;
+; Top            ; 00:00:14     ;
 +----------------+--------------+
 
 
@@ -2016,7 +2005,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Wed Nov 20 14:42:32 2019
+    Info: Processing started: Sat Nov 23 14:24:09 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off PipelineCPU -c PipelineCPU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -2042,7 +2031,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file regbank
     Info (12022): Found design unit 1: regBank-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regBank.vhd Line: 24
     Info (12023): Found entity 1: regBank File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regBank.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file pipelinecpu.vhd
-    Info (12022): Found design unit 1: PipelineCPU-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 21
+    Info (12022): Found design unit 1: PipelineCPU-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 24
     Info (12023): Found entity 1: PipelineCPU File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 5
 Info (12021): Found 1 design units, including 0 entities, in source file componentsforregbank.vhd
     Info (12022): Found design unit 1: componentsForRegBank File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/componentsForRegBank.vhd Line: 5
@@ -2091,38 +2080,38 @@ Info (12021): Found 2 design units, including 1 entities, in source file muxtri.
     Info (12022): Found design unit 1: muxTri-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 19
     Info (12023): Found entity 1: muxTri File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 6
 Info (12127): Elaborating entity "PipelineCPU" for the top level hierarchy
-Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:pcounter" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 69
-Info (12128): Elaborating entity "Adder" for hierarchy "Adder:adderParaPC" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 70
-Info (12128): Elaborating entity "bancoRegistradores" for hierarchy "bancoRegistradores:regBd" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 72
+Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:pcounter" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 73
+Info (12128): Elaborating entity "Adder" for hierarchy "Adder:adderParaPC" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 74
+Info (12128): Elaborating entity "bancoRegistradores" for hierarchy "bancoRegistradores:regBd" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 76
 Info (12128): Elaborating entity "regWithTriState" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/bancoRegistradores.vhd Line: 29
 Info (12128): Elaborating entity "registrador" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 30
 Info (12128): Elaborating entity "triStateBuffer" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 31
-Info (12128): Elaborating entity "instructionMemory" for hierarchy "instructionMemory:memoriaInstrucoes" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 73
-Warning (10492): VHDL Process Statement warning at instructionMemory.vhd(83): signal "memoria" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 83
-Warning (10873): Using initial value X (don't care) for net "memoria[60..384]" at instructionMemory.vhd(15) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 15
-Info (12128): Elaborating entity "muxData" for hierarchy "muxData:muxpc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 74
-Info (12128): Elaborating entity "shiftleft" for hierarchy "shiftleft:jcalc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 75
-Info (12128): Elaborating entity "muxTri" for hierarchy "muxTri:muxjump" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 77
+Info (12128): Elaborating entity "instructionMemory" for hierarchy "instructionMemory:memoriaInstrucoes" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 77
+Warning (10492): VHDL Process Statement warning at instructionMemory.vhd(217): signal "memoria" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 217
+Warning (10873): Using initial value X (don't care) for net "memoria[196..384]" at instructionMemory.vhd(15) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 15
+Info (12128): Elaborating entity "muxData" for hierarchy "muxData:muxpc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 79
+Info (12128): Elaborating entity "shiftleft" for hierarchy "shiftleft:jcalc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 80
+Info (12128): Elaborating entity "muxTri" for hierarchy "muxTri:muxjump" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 82
 Warning (10492): VHDL Process Statement warning at muxTri.vhd(25): signal "entrada1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 25
 Warning (10492): VHDL Process Statement warning at muxTri.vhd(26): signal "entrada2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 26
 Warning (10492): VHDL Process Statement warning at muxTri.vhd(27): signal "entrada3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 27
-Info (12128): Elaborating entity "RegIFID" for hierarchy "RegIFID:RIFIF" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 78
-Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:ContUnit" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 79
+Info (12128): Elaborating entity "RegIFID" for hierarchy "RegIFID:RIFIF" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 83
+Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:ContUnit" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 84
 Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(16): inferring latch(es) for signal or variable "RegDst", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(16): inferring latch(es) for signal or variable "Memread", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(16): inferring latch(es) for signal or variable "Memtoreg", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Info (10041): Inferred latch for "Memtoreg" at ControlUnit.vhd(16) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Info (10041): Inferred latch for "Memread" at ControlUnit.vhd(16) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Info (10041): Inferred latch for "RegDst" at ControlUnit.vhd(16) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
-Info (12128): Elaborating entity "RegIDEX" for hierarchy "RegIDEX:RIDEX" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 80
-Info (12128): Elaborating entity "signextend" for hierarchy "signextend:SIGNEXT" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 86
-Info (12128): Elaborating entity "muxRegAdd" for hierarchy "muxRegAdd:muxregsrc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 89
-Info (12128): Elaborating entity "Aluctrl" for hierarchy "Aluctrl:ULACONTROL" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 90
-Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 92
+Info (12128): Elaborating entity "RegIDEX" for hierarchy "RegIDEX:RIDEX" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 85
+Info (12128): Elaborating entity "signextend" for hierarchy "signextend:SIGNEXT" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 91
+Info (12128): Elaborating entity "muxRegAdd" for hierarchy "muxRegAdd:muxregsrc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 94
+Info (12128): Elaborating entity "Aluctrl" for hierarchy "Aluctrl:ULACONTROL" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 95
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 97
 Warning (10492): VHDL Process Statement warning at ULA.vhd(27): signal "res" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 27
 Warning (10492): VHDL Process Statement warning at ULA.vhd(33): signal "res" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 33
-Info (12128): Elaborating entity "RegEXMEM" for hierarchy "RegEXMEM:REXMEM" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 97
-Info (12128): Elaborating entity "memData" for hierarchy "memData:DATAMEMORY" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 102
+Info (12128): Elaborating entity "RegEXMEM" for hierarchy "RegEXMEM:REXMEM" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 102
+Info (12128): Elaborating entity "memData" for hierarchy "memData:DATAMEMORY" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 111
 Warning (10492): VHDL Process Statement warning at memData.vhd(57): signal "memRead" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 57
 Warning (10492): VHDL Process Statement warning at memData.vhd(61): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 61
 Warning (10492): VHDL Process Statement warning at memData.vhd(61): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 61
@@ -2132,7 +2121,7 @@ Warning (10492): VHDL Process Statement warning at memData.vhd(65): signal "memo
 Warning (10492): VHDL Process Statement warning at memData.vhd(65): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 65
 Warning (10492): VHDL Process Statement warning at memData.vhd(67): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 67
 Warning (10492): VHDL Process Statement warning at memData.vhd(67): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 67
-Info (12128): Elaborating entity "RegMEMWB" for hierarchy "RegMEMWB:RMEMWB" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 104
+Info (12128): Elaborating entity "RegMEMWB" for hierarchy "RegMEMWB:RMEMWB" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 113
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "memData:DATAMEMORY|read_Data[0]" feeding internal logic into a wire File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 23
     Warning (13049): Converted tri-state buffer "memData:DATAMEMORY|read_Data[1]" feeding internal logic into a wire File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 23
@@ -2262,22 +2251,23 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13048): Converted tri-state node "bancoRegistradores:regBd|readData2[2]" into a selector File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIDEX.vhd Line: 40
     Warning (13048): Converted tri-state node "bancoRegistradores:regBd|readData2[1]" into a selector File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIDEX.vhd Line: 40
     Warning (13048): Converted tri-state node "bancoRegistradores:regBd|readData2[0]" into a selector File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIDEX.vhd Line: 40
+Warning (13012): Latch ControlUnit:ContUnit|Memread has unsafe behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal RegIFID:RIFIF|out_instr[4] File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIFID.vhd Line: 21
 Warning (13012): Latch ControlUnit:ContUnit|Memtoreg has unsafe behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 8
     Warning (13013): Ports D and ENA on the latch are fed by the same signal RegIFID:RIFIF|out_instr[3] File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIFID.vhd Line: 21
 Warning (13012): Latch ControlUnit:ContUnit|RegDst has unsafe behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 8
     Warning (13013): Ports D and ENA on the latch are fed by the same signal RegIFID:RIFIF|out_instr[5] File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/RegIFID.vhd Line: 21
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 2 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6238 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 6400 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
-    Info (21059): Implemented 85 output pins
-    Info (21061): Implemented 6152 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 153 warnings
-    Info: Peak virtual memory: 4818 megabytes
-    Info: Processing ended: Wed Nov 20 14:43:05 2019
-    Info: Elapsed time: 00:00:33
-    Info: Total CPU time (on all processors): 00:00:50
+    Info (21059): Implemented 183 output pins
+    Info (21061): Implemented 6216 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 155 warnings
+    Info: Peak virtual memory: 4805 megabytes
+    Info: Processing ended: Sat Nov 23 14:24:41 2019
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:49
 
 

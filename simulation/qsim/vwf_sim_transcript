@@ -25,12 +25,12 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Wed Nov 20 14:43:41 2019
+    Info: Processing started: Sat Nov 23 14:31:28 2019
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off PipelineCPU -c PipelineCPU --vector_source=C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/Waveform.vwf --testbench_file=C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim/Waveform.vwf.vht
 Info (119006): Selected device EP4CE115F29C7 for design "PipelineCPU"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
- test bench files
+ing test bench files
 
 Completed successfully. 
 
@@ -54,14 +54,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Wed Nov 20 14:43:43 2019
+    Info: Processing started: Sat Nov 23 14:31:31 2019
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim/ PipelineCPU -c PipelineCPU
 Info (119006): Selected device EP4CE115F29C7 for design "PipelineCPU"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file PipelineCPU.vho in folder "C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4653 megabytes
-    Info: Processing ended: Wed Nov 20 14:43:46 2019
+    Info: Peak virtual memory: 4654 megabytes
+    Info: Processing ended: Sat Nov 23 14:31:34 2019
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
@@ -81,12 +81,12 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
 # 10.5b
 
-# do PipelineCPU.do
 
+# do PipelineCPU.do
 # ** Warning: (vlib-34) Library already exists at "work".
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:47 on Nov 20,2019
+# Start time: 14:31:35 on Nov 23,2019
 # vcom -work work PipelineCPU.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -100,23 +100,24 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # -- Compiling entity PipelineCPU
 # -- Compiling architecture structure of PipelineCPU
 
-# End time: 14:43:49 on Nov 20,2019, Elapsed time: 0:00:02
+# End time: 14:31:38 on Nov 23,2019, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:49 on Nov 20,2019
-# vcom -work work Waveform.vwf.vht 
 
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:38 on Nov 23,2019
+# vcom -work work Waveform.vwf.vht 
 # -- Loading package STANDARD
 
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PipelineCPU_vhd_vec_tst
 # -- Compiling architecture PipelineCPU_arch of PipelineCPU_vhd_vec_tst
-# End time: 14:43:50 on Nov 20,2019, Elapsed time: 0:00:01
+
+# End time: 14:31:38 on Nov 23,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.PipelineCPU_vhd_vec_tst 
-# Start time: 14:43:50 on Nov 20,2019
+# Start time: 14:31:38 on Nov 23,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -131,9 +132,9 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
 # Loading cycloneive.cycloneive_io_ibuf(arch)
-# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
 # Loading altera.dffeas(vital_dffeas)
-# ** Warning: Design size of 862019 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# ** Warning: Design size of 871839 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # after#33
 
@@ -151,9 +152,7 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
 # Simulation time: 0 ps
 
-# Simulation time: 0 ps
-
-# End time: 14:44:14 on Nov 20,2019, Elapsed time: 0:00:24
+# End time: 14:32:00 on Nov 23,2019, Elapsed time: 0:00:22
 # Errors: 0, Warnings: 1
 
 Completed successfully. 
@@ -166,7 +165,7 @@ Reading C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim/Pipeline
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim/PipelineCPU_20191120144414.sim.vwf
+Writing the resulting VWF to C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/simulation/qsim/PipelineCPU_20191123143200.sim.vwf
 
 Finished VCD to VWF conversion.
 
