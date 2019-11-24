@@ -1,5 +1,5 @@
 Analysis & Synthesis report for PipelineCPU
-Sat Nov 23 14:24:41 2019
+Sun Nov 24 15:03:42 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -179,16 +179,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Nov 23 14:24:41 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Nov 24 15:03:42 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; PipelineCPU                                 ;
 ; Top-level Entity Name              ; PipelineCPU                                 ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 6,040                                       ;
-;     Total combinational functions  ; 4,915                                       ;
+; Total logic elements               ; 6,038                                       ;
+;     Total combinational functions  ; 4,913                                       ;
 ;     Dedicated logic registers      ; 2,233                                       ;
 ; Total registers                    ; 2233                                        ;
-; Total pins                         ; 184                                         ;
+; Total pins                         ; 187                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -290,14 +290,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
+;     Processor 2            ;   0.5%      ;
+;     Processor 3            ;   0.5%      ;
+;     Processor 4            ;   0.5%      ;
 +----------------------------+-------------+
 
 
@@ -337,29 +337,29 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 6,040       ;
+; Estimated Total logic elements              ; 6,038       ;
 ;                                             ;             ;
-; Total combinational functions               ; 4915        ;
+; Total combinational functions               ; 4913        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 4293        ;
-;     -- 3 input functions                    ; 552         ;
-;     -- <=2 input functions                  ; 70          ;
+;     -- 4 input functions                    ; 4285        ;
+;     -- 3 input functions                    ; 557         ;
+;     -- <=2 input functions                  ; 71          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 4825        ;
+;     -- normal mode                          ; 4823        ;
 ;     -- arithmetic mode                      ; 90          ;
 ;                                             ;             ;
 ; Total registers                             ; 2233        ;
 ;     -- Dedicated logic registers            ; 2233        ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 184         ;
+; I/O pins                                    ; 187         ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; Clock~input ;
 ; Maximum fan-out                             ; 2233        ;
-; Total fan-out                               ; 25666       ;
+; Total fan-out                               ; 25657       ;
 ; Average fan-out                             ; 3.41        ;
 +---------------------------------------------+-------------+
 
@@ -369,11 +369,11 @@ refer to the applicable agreement for further details.
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------------+--------------+
 ; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                         ; Entity Name        ; Library Name ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------------+--------------+
-; |PipelineCPU                             ; 4915 (0)            ; 2233 (0)                  ; 0           ; 0            ; 0       ; 0         ; 184  ; 0            ; |PipelineCPU                                                                ; PipelineCPU        ; work         ;
+; |PipelineCPU                             ; 4913 (0)            ; 2233 (0)                  ; 0           ; 0            ; 0       ; 0         ; 187  ; 0            ; |PipelineCPU                                                                ; PipelineCPU        ; work         ;
 ;    |Adder:adderParaPC|                   ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|Adder:adderParaPC                                              ; Adder              ; work         ;
 ;    |Aluctrl:ULACONTROL|                  ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|Aluctrl:ULACONTROL                                             ; Aluctrl            ; work         ;
-;    |ControlUnit:ContUnit|                ; 20 (20)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ControlUnit:ContUnit                                           ; ControlUnit        ; work         ;
-;    |ProgramCounter:pcounter|             ; 2 (2)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ProgramCounter:pcounter                                        ; ProgramCounter     ; work         ;
+;    |ControlUnit:ContUnit|                ; 21 (21)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ControlUnit:ContUnit                                           ; ControlUnit        ; work         ;
+;    |ProgramCounter:pcounter|             ; 3 (3)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|ProgramCounter:pcounter                                        ; ProgramCounter     ; work         ;
 ;    |RegEXMEM:REXMEM|                     ; 30 (30)             ; 107 (107)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegEXMEM:REXMEM                                                ; RegEXMEM           ; work         ;
 ;    |RegIDEX:RIDEX|                       ; 0 (0)               ; 127 (127)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegIDEX:RIDEX                                                  ; RegIDEX            ; work         ;
 ;    |RegIFID:RIFIF|                       ; 0 (0)               ; 64 (64)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|RegIFID:RIFIF                                                  ; RegIFID            ; work         ;
@@ -445,11 +445,11 @@ refer to the applicable agreement for further details.
 ;       |regWithTriState:reg9|             ; 0 (0)               ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9                  ; regWithTriState    ; work         ;
 ;          |registrador:reg|               ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|bancoRegistradores:regBd|regWithTriState:reg9|registrador:reg  ; registrador        ; work         ;
 ;    |instructionMemory:memoriaInstrucoes| ; 169 (169)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|instructionMemory:memoriaInstrucoes                            ; instructionMemory  ; work         ;
-;    |memData:DATAMEMORY|                  ; 2915 (2915)         ; 808 (808)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|memData:DATAMEMORY                                             ; memData            ; work         ;
+;    |memData:DATAMEMORY|                  ; 2917 (2917)         ; 808 (808)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|memData:DATAMEMORY                                             ; memData            ; work         ;
 ;    |muxData:MUXALU|                      ; 27 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxData:MUXALU                                                 ; muxData            ; work         ;
 ;    |muxData:MUXWB|                       ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxData:MUXWB                                                  ; muxData            ; work         ;
 ;    |muxRegAdd:muxregsrc|                 ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxRegAdd:muxregsrc                                            ; muxRegAdd          ; work         ;
-;    |muxTri:muxjump|                      ; 95 (95)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxTri:muxjump                                                 ; muxTri             ; work         ;
+;    |muxTri:muxjump|                      ; 89 (89)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |PipelineCPU|muxTri:muxjump                                                 ; muxTri             ; work         ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1970,23 +1970,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 184                         ;
+; boundary_port         ; 187                         ;
 ; cycloneiii_ff         ; 2233                        ;
 ;     ENA               ; 1834                        ;
 ;     SLD               ; 16                          ;
 ;     plain             ; 383                         ;
-; cycloneiii_lcell_comb ; 4916                        ;
+; cycloneiii_lcell_comb ; 4915                        ;
 ;     arith             ; 90                          ;
 ;         2 data inputs ; 30                          ;
 ;         3 data inputs ; 60                          ;
-;     normal            ; 4826                        ;
-;         1 data inputs ; 2                           ;
-;         2 data inputs ; 39                          ;
-;         3 data inputs ; 492                         ;
-;         4 data inputs ; 4293                        ;
+;     normal            ; 4825                        ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 40                          ;
+;         3 data inputs ; 497                         ;
+;         4 data inputs ; 4285                        ;
 ;                       ;                             ;
-; Max LUT depth         ; 11.60                       ;
-; Average LUT depth     ; 5.55                        ;
+; Max LUT depth         ; 12.10                       ;
+; Average LUT depth     ; 5.62                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1995,7 +1995,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:14     ;
+; Top            ; 00:00:23     ;
 +----------------+--------------+
 
 
@@ -2005,7 +2005,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sat Nov 23 14:24:09 2019
+    Info: Processing started: Sun Nov 24 15:02:51 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off PipelineCPU -c PipelineCPU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -2031,7 +2031,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file regbank
     Info (12022): Found design unit 1: regBank-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regBank.vhd Line: 24
     Info (12023): Found entity 1: regBank File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regBank.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file pipelinecpu.vhd
-    Info (12022): Found design unit 1: PipelineCPU-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 24
+    Info (12022): Found design unit 1: PipelineCPU-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 26
     Info (12023): Found entity 1: PipelineCPU File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 5
 Info (12021): Found 1 design units, including 0 entities, in source file componentsforregbank.vhd
     Info (12022): Found design unit 1: componentsForRegBank File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/componentsForRegBank.vhd Line: 5
@@ -2080,38 +2080,38 @@ Info (12021): Found 2 design units, including 1 entities, in source file muxtri.
     Info (12022): Found design unit 1: muxTri-Behavior File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 19
     Info (12023): Found entity 1: muxTri File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 6
 Info (12127): Elaborating entity "PipelineCPU" for the top level hierarchy
-Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:pcounter" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 73
-Info (12128): Elaborating entity "Adder" for hierarchy "Adder:adderParaPC" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 74
-Info (12128): Elaborating entity "bancoRegistradores" for hierarchy "bancoRegistradores:regBd" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 76
+Info (12128): Elaborating entity "ProgramCounter" for hierarchy "ProgramCounter:pcounter" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 75
+Info (12128): Elaborating entity "Adder" for hierarchy "Adder:adderParaPC" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 76
+Info (12128): Elaborating entity "bancoRegistradores" for hierarchy "bancoRegistradores:regBd" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 78
 Info (12128): Elaborating entity "regWithTriState" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/bancoRegistradores.vhd Line: 29
 Info (12128): Elaborating entity "registrador" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|registrador:reg" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 30
 Info (12128): Elaborating entity "triStateBuffer" for hierarchy "bancoRegistradores:regBd|regWithTriState:reg0|triStateBuffer:tri1" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/regWithTriState.vhd Line: 31
-Info (12128): Elaborating entity "instructionMemory" for hierarchy "instructionMemory:memoriaInstrucoes" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 77
+Info (12128): Elaborating entity "instructionMemory" for hierarchy "instructionMemory:memoriaInstrucoes" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 79
 Warning (10492): VHDL Process Statement warning at instructionMemory.vhd(217): signal "memoria" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 217
 Warning (10873): Using initial value X (don't care) for net "memoria[196..384]" at instructionMemory.vhd(15) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/instructionMemory.vhd Line: 15
-Info (12128): Elaborating entity "muxData" for hierarchy "muxData:muxpc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 79
-Info (12128): Elaborating entity "shiftleft" for hierarchy "shiftleft:jcalc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 80
-Info (12128): Elaborating entity "muxTri" for hierarchy "muxTri:muxjump" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 82
+Info (12128): Elaborating entity "muxData" for hierarchy "muxData:muxpc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 81
+Info (12128): Elaborating entity "shiftleft" for hierarchy "shiftleft:jcalc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 82
+Info (12128): Elaborating entity "muxTri" for hierarchy "muxTri:muxjump" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 84
 Warning (10492): VHDL Process Statement warning at muxTri.vhd(25): signal "entrada1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 25
 Warning (10492): VHDL Process Statement warning at muxTri.vhd(26): signal "entrada2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 26
 Warning (10492): VHDL Process Statement warning at muxTri.vhd(27): signal "entrada3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/muxTri.vhd Line: 27
-Info (12128): Elaborating entity "RegIFID" for hierarchy "RegIFID:RIFIF" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 83
-Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:ContUnit" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 84
+Info (12128): Elaborating entity "RegIFID" for hierarchy "RegIFID:RIFIF" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 86
+Info (12128): Elaborating entity "ControlUnit" for hierarchy "ControlUnit:ContUnit" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 87
 Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(16): inferring latch(es) for signal or variable "RegDst", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(16): inferring latch(es) for signal or variable "Memread", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Warning (10631): VHDL Process Statement warning at ControlUnit.vhd(16): inferring latch(es) for signal or variable "Memtoreg", which holds its previous value in one or more paths through the process File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Info (10041): Inferred latch for "Memtoreg" at ControlUnit.vhd(16) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Info (10041): Inferred latch for "Memread" at ControlUnit.vhd(16) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
 Info (10041): Inferred latch for "RegDst" at ControlUnit.vhd(16) File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ControlUnit.vhd Line: 16
-Info (12128): Elaborating entity "RegIDEX" for hierarchy "RegIDEX:RIDEX" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 85
-Info (12128): Elaborating entity "signextend" for hierarchy "signextend:SIGNEXT" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 91
-Info (12128): Elaborating entity "muxRegAdd" for hierarchy "muxRegAdd:muxregsrc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 94
-Info (12128): Elaborating entity "Aluctrl" for hierarchy "Aluctrl:ULACONTROL" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 95
-Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 97
+Info (12128): Elaborating entity "RegIDEX" for hierarchy "RegIDEX:RIDEX" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 88
+Info (12128): Elaborating entity "signextend" for hierarchy "signextend:SIGNEXT" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 94
+Info (12128): Elaborating entity "muxRegAdd" for hierarchy "muxRegAdd:muxregsrc" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 97
+Info (12128): Elaborating entity "Aluctrl" for hierarchy "Aluctrl:ULACONTROL" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 98
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:ALU" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 100
 Warning (10492): VHDL Process Statement warning at ULA.vhd(27): signal "res" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 27
 Warning (10492): VHDL Process Statement warning at ULA.vhd(33): signal "res" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/ULA.vhd Line: 33
-Info (12128): Elaborating entity "RegEXMEM" for hierarchy "RegEXMEM:REXMEM" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 102
-Info (12128): Elaborating entity "memData" for hierarchy "memData:DATAMEMORY" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 111
+Info (12128): Elaborating entity "RegEXMEM" for hierarchy "RegEXMEM:REXMEM" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 105
+Info (12128): Elaborating entity "memData" for hierarchy "memData:DATAMEMORY" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 115
 Warning (10492): VHDL Process Statement warning at memData.vhd(57): signal "memRead" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 57
 Warning (10492): VHDL Process Statement warning at memData.vhd(61): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 61
 Warning (10492): VHDL Process Statement warning at memData.vhd(61): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 61
@@ -2121,7 +2121,7 @@ Warning (10492): VHDL Process Statement warning at memData.vhd(65): signal "memo
 Warning (10492): VHDL Process Statement warning at memData.vhd(65): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 65
 Warning (10492): VHDL Process Statement warning at memData.vhd(67): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 67
 Warning (10492): VHDL Process Statement warning at memData.vhd(67): signal "address" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 67
-Info (12128): Elaborating entity "RegMEMWB" for hierarchy "RegMEMWB:RMEMWB" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 113
+Info (12128): Elaborating entity "RegMEMWB" for hierarchy "RegMEMWB:RMEMWB" File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/PipelineCPU.vhd Line: 117
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "memData:DATAMEMORY|read_Data[0]" feeding internal logic into a wire File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 23
     Warning (13049): Converted tri-state buffer "memData:DATAMEMORY|read_Data[1]" feeding internal logic into a wire File: C:/Users/Usuario/Documents/GitHub/Pipeline-VHDL/memData.vhd Line: 23
@@ -2260,14 +2260,14 @@ Warning (13012): Latch ControlUnit:ContUnit|RegDst has unsafe behavior File: C:/
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6400 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 6401 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
-    Info (21059): Implemented 183 output pins
-    Info (21061): Implemented 6216 logic cells
+    Info (21059): Implemented 186 output pins
+    Info (21061): Implemented 6214 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 155 warnings
-    Info: Peak virtual memory: 4805 megabytes
-    Info: Processing ended: Sat Nov 23 14:24:41 2019
-    Info: Elapsed time: 00:00:32
-    Info: Total CPU time (on all processors): 00:00:49
+    Info: Peak virtual memory: 4818 megabytes
+    Info: Processing ended: Sun Nov 24 15:03:42 2019
+    Info: Elapsed time: 00:00:51
+    Info: Total CPU time (on all processors): 00:00:56
 
 

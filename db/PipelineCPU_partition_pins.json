@@ -724,6 +724,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "DEBUGBRANCH",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGPCJSRC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGPCJSRC[1]",
+					"strict" : false
+				},
+				{
 					"name" : "ALUCTRLDEBUG[0]",
 					"strict" : false
 				},
