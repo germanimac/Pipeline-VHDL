@@ -204,6 +204,538 @@
 					"strict" : false
 				},
 				{
+					"name" : "DEBUgPC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[21]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[25]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[26]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[27]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[28]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[29]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[30]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUgPC[31]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[21]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[25]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[26]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[27]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[28]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[29]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[30]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAADD[31]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[21]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[25]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[26]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[27]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[28]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[29]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[30]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGDATAWRITE[31]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[31]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[30]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[29]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[28]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[27]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[26]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[25]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[21]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[20]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[19]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[18]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[17]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[16]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGINSTRUCTION[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGMEMWRITE",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGMEMREAD",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGBRANCH",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGPCJSRC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUGPCJSRC[1]",
+					"strict" : false
+				},
+				{
 					"name" : "ALUCTRLDEBUG[0]",
 					"strict" : false
 				},
