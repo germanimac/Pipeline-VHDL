@@ -6,6 +6,7 @@ entity ControlUnit is
 	port (
 		Instruction: 	in std_logic_vector(5 downto 0);
 		Regwrite,RegDst,AluSrc,Memwrite,Memread,Branch,Memtoreg:	out STD_LOGIC;
+		PCJumpSrc:	out STD_LOGIC_VECTOR(1 downto 0);
 		ALUOP:	out std_logic_vector(2 downto 0)
 	);
 end ControlUnit;
@@ -25,6 +26,7 @@ begin
 									Memread	<=	'0';
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 									
 			when	"000001"	=>	--Addi--
 									Regwrite <=	'1';
@@ -35,6 +37,7 @@ begin
 									Memread	<=	'0';
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 									
 			when	"000010"	=>	--Subi--
 									Regwrite <=	'1';
@@ -45,6 +48,7 @@ begin
 									Memread	<=	'0';
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 									
 			when	"000011"	=>	--Andi--
 									Regwrite <=	'1';
@@ -55,6 +59,7 @@ begin
 									Memread	<=	'0';
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 									
 			when	"000100"	=>	--Ori--
 									Regwrite <=	'1';
@@ -65,6 +70,7 @@ begin
 									Memread	<=	'0';
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 									
 			when	"000101"	=>	--sw--
 									Regwrite <=	'0';
@@ -73,6 +79,7 @@ begin
 									Memwrite	<=	'1';
 									Memread	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 			
 			when	"000110"	=>	--lw--
 									Regwrite	<=	'1';
@@ -83,6 +90,7 @@ begin
 									Memread	<=	'1';
 									Memtoreg	<=	'1';
 									Branch	<=	'0';
+									PCJumpSRC<= "01";
 									
 			when	"000111"	=>	--Beq--
 									Regwrite	<=	'0';
@@ -90,6 +98,30 @@ begin
 									AluSrc	<=	'0';
 									Memwrite	<=	'0';
 									Branch	<=	'1';
+									PCJumpSRC<= "01";
+						
+			when	"001000"	=>	--jr--
+									Regwrite <= '0';
+									RegDst	<= '0';
+									ALUOP		<= "000";
+									AluSrc	<=	'0';
+									Memwrite	<=	'0';
+									Memread	<=	'0';
+									Memtoreg	<=	'0';
+									Branch	<=	'0';
+									PCJumpSRC<= "10";
+									
+									
+			when	"001001"	=>	--jump--
+									Regwrite <= '0';
+									RegDst	<= '0';
+									ALUOP		<= "000";
+									AluSrc	<=	'0';
+									Memwrite	<=	'0';
+									Memread	<=	'0';
+									Memtoreg	<=	'0';
+									Branch	<=	'0';
+									PCJumpSRC<= "11";
 						
 			when	others	=>
 									Regwrite <= '0';
@@ -100,6 +132,7 @@ begin
 									Memread	<=	'0';
 									Memtoreg	<=	'0';
 									Branch	<=	'0';
+									PCJumpSRC <="01";
 		end case;
 	end process;
 end Behavior;

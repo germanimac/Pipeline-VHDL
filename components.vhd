@@ -55,6 +55,7 @@ COMPONENT ControlUnit is
 	port (
 		Instruction: 	in std_logic_vector(5 downto 0);
 		Regwrite,RegDst,AluSrc,Memwrite,Memread,Branch,Memtoreg:	out STD_LOGIC;
+		PCJumpSrc:	out STD_LOGIC_VECTOR(1 downto 0);
 		ALUOP:	out std_logic_vector(2 downto 0)
 	);
 end COMPONENT;
@@ -183,5 +184,17 @@ COMPONENT RegMEMWB is
 			input_regdst:	in		std_logic_vector(4 DOWNTO 0);
 			output_regdst:	out	std_logic_vector(4 DOWNTO 0) := "00000");
 end COMPONENT;
+
+COMPONENT muxTri IS 
+	GENERIC (N: INTEGER:= 32);
+	PORT (
+		entrada1 : IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+		entrada2 : IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+		entrada3 : IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+		CTRL : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+		saida : OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0)
+	);
+
+END COMPONENT;
 
 END components;

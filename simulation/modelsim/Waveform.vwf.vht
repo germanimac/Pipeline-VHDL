@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/17/2019 15:38:36"
+-- Generated on "11/23/2019 12:47:50"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          PipelineCPU
 -- 
@@ -33,15 +33,25 @@ END PipelineCPU_vhd_vec_tst;
 ARCHITECTURE PipelineCPU_arch OF PipelineCPU_vhd_vec_tst IS
 -- constants                                                 
 -- signals                                                   
+SIGNAL ALUCTRLDEBUG : STD_LOGIC_VECTOR(2 DOWNTO 0);
 SIGNAL Clock : STD_LOGIC;
 SIGNAL Debugaddress : STD_LOGIC_VECTOR(4 DOWNTO 0);
 SIGNAL Debugdata : STD_LOGIC_VECTOR(31 DOWNTO 0);
+SIGNAL DEBUGFUNC1 : STD_LOGIC_VECTOR(5 DOWNTO 0);
+SIGNAL DEBUGFUNC2 : STD_LOGIC_VECTOR(5 DOWNTO 0);
+SIGNAL DEBUGINSTRUCTION : STD_LOGIC_VECTOR(0 TO 31);
+SIGNAL DEBUgPC : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL DEBUGREGWRITE : STD_LOGIC;
 COMPONENT PipelineCPU
 	PORT (
+	ALUCTRLDEBUG : BUFFER STD_LOGIC_VECTOR(2 DOWNTO 0);
 	Clock : IN STD_LOGIC;
 	Debugaddress : BUFFER STD_LOGIC_VECTOR(4 DOWNTO 0);
 	Debugdata : BUFFER STD_LOGIC_VECTOR(31 DOWNTO 0);
+	DEBUGFUNC1 : BUFFER STD_LOGIC_VECTOR(5 DOWNTO 0);
+	DEBUGFUNC2 : BUFFER STD_LOGIC_VECTOR(5 DOWNTO 0);
+	DEBUGINSTRUCTION : BUFFER STD_LOGIC_VECTOR(0 TO 31);
+	DEBUgPC : BUFFER STD_LOGIC_VECTOR(31 DOWNTO 0);
 	DEBUGREGWRITE : BUFFER STD_LOGIC
 	);
 END COMPONENT;
@@ -49,9 +59,14 @@ BEGIN
 	i1 : PipelineCPU
 	PORT MAP (
 -- list connections between master ports and signals
+	ALUCTRLDEBUG => ALUCTRLDEBUG,
 	Clock => Clock,
 	Debugaddress => Debugaddress,
 	Debugdata => Debugdata,
+	DEBUGFUNC1 => DEBUGFUNC1,
+	DEBUGFUNC2 => DEBUGFUNC2,
+	DEBUGINSTRUCTION => DEBUGINSTRUCTION,
+	DEBUgPC => DEBUgPC,
 	DEBUGREGWRITE => DEBUGREGWRITE
 	);
 
@@ -63,7 +78,7 @@ LOOP
 	WAIT FOR 5000 ps;
 	Clock <= '1';
 	WAIT FOR 5000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
+	IF (NOW >= 5000000 ps) THEN WAIT; END IF;
 END LOOP;
 END PROCESS t_prcs_Clock;
 END PipelineCPU_arch;
